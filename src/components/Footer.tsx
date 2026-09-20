@@ -66,24 +66,24 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Railway Zones */}
+          {/* Column 3: Industry Sectors */}
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-slate-200 mb-4 flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#EA580C]" />
-              Railway Client Zones
+              Industry Sectors
             </h3>
             <ul className="space-y-2 text-xs text-slate-300">
               <li className="flex items-center gap-2 bg-[#24282C] p-2.5 rounded-xl border border-white/5">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C] shrink-0" />
-                <span>Northern Railways (NR) & NCR</span>
+                <span>Power Grids & Substations</span>
               </li>
               <li className="flex items-center gap-2 bg-[#24282C] p-2.5 rounded-xl border border-white/5">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C] shrink-0" />
-                <span>Western Railways (WR) & Central</span>
+                <span>Metro Rail & Transit Systems</span>
               </li>
               <li className="flex items-center gap-2 bg-[#24282C] p-2.5 rounded-xl border border-white/5">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C] shrink-0" />
-                <span>Eastern Railways (ER) & Southern</span>
+                <span>Heavy Electrical & Switchyards</span>
               </li>
             </ul>
           </div>

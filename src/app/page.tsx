@@ -312,27 +312,27 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. RAILWAY CLIENT & SUPPLIER NETWORK */}
+      {/* 5. CLIENT SECTORS & SUPPLIER NETWORK */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-r from-[#191C1E] via-[#24282C] to-[#33373B] rounded-3xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-7 space-y-4">
               <div className="inline-flex items-center gap-1.5 bg-[#EA580C]/20 text-[#FB923C] px-3 py-1 rounded-full text-xs font-bold border border-[#EA580C]/30">
                 <Compass className="w-3.5 h-3.5" />
-                Pan-India Railway Presence
+                Multi-Sector Infrastructure Presence
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold font-['Outfit']">
-                Railway Client Zones & Network
+                Key Industry & Client Sectors
               </h2>
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                RailJet Pvt Ltd supplies testing instruments and electrical solutions to locomotive sheds, electric loco sheds (ELS), diesel loco sheds (DLS), and signaling departments across major transit networks.
+                RailJet Pvt Ltd supplies high-precision testing instruments and electrical safety solutions across power substations, metro transit systems, rolling stock assembly units, and heavy industrial plants.
               </p>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
-                {COMPANY_DETAILS.operatingZones.slice(0, 6).map((zone, idx) => (
+                {COMPANY_DETAILS.clientSectors.slice(0, 6).map((sector, idx) => (
                   <div key={idx} className="bg-white/5 backdrop-blur-sm p-3 rounded-xl border border-white/10 text-xs">
-                    <p className="font-bold text-white truncate">{zone.name}</p>
-                    <p className="text-[11px] text-[#FB923C] truncate">{zone.hub}</p>
+                    <p className="font-bold text-white truncate">{sector.name}</p>
+                    <p className="text-[11px] text-[#FB923C] truncate">{sector.hub}</p>
                   </div>
                 ))}
               </div>

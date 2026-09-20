@@ -51,18 +51,18 @@ export const COMPANY_DETAILS = {
     address: "2-chome, Chiyoda-ku, Tokyo 101-0048, Japan",
     origin: "Made in Japan",
   },
-  operatingZones: [
-    { name: "Northern Railways (NR)", hub: "New Delhi / Lucknow", status: "Primary Supplier" },
-    { name: "Western Railways (WR)", hub: "Mumbai / Vadodara", status: "Approved Vendor" },
-    { name: "Eastern Railways (ER)", hub: "Kolkata / Asansol", status: "Approved Vendor" },
-    { name: "Southern Railways (SR)", hub: "Chennai / Perambur", status: "Active Procurement" },
-    { name: "Central Railways (CR)", hub: "Mumbai CSMT / Pune", status: "Approved Vendor" },
-    { name: "North Central Railways (NCR)", hub: "Prayagraj / Kanpur", status: "Active Supplier" },
+  clientSectors: [
+    { name: "Power Grid & Traction Substations", hub: "High-Voltage Substations & Earth Pits", status: "Primary Supplier" },
+    { name: "Metro Rail & Urban Transit Projects", hub: "Depots & Traction Power Systems", status: "Approved Vendor" },
+    { name: "Locomotive & Rolling Stock Units", hub: "Assembly & Maintenance Facilities", status: "Active Supplier" },
+    { name: "Heavy Electrical & EPC Infrastructure", hub: "Switchyards & Distribution Hubs", status: "Approved Vendor" },
+    { name: "Renewable Energy & Solar Power Plants", hub: "Grid Connection & Grounding Arrays", status: "Active Procurement" },
+    { name: "Industrial & Manufacturing Plants", hub: "Plant Electrical Safety & Maintenance", status: "Certified Vendor" },
   ],
   stats: [
     { label: "Business Trajectory", value: "₹1,000+ Cr", subtext: "Contract & Order Pipeline" },
-    { label: "Railway Divisions", value: "8+", subtext: "Pan-India Zonal Network" },
-    { label: "Testing Instruments", value: "6 Core", subtext: "IEC / RDSO Compliant" },
+    { label: "Sector Deployments", value: "10+", subtext: "Pan-India & Global Reach" },
+    { label: "Testing Instruments", value: "6 Core", subtext: "IEC / Standard Compliant" },
     { label: "Testing Reliability", value: "99.9%", subtext: "High Precision Calibration" },
   ],
 };

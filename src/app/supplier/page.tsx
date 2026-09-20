@@ -3,11 +3,11 @@
 import React, { useState } from "react";
 import { 
   Building2, 
-  Train, 
+  Zap, 
   ShieldCheck, 
   CheckCircle2, 
   Send, 
-  Compass, 
+  Layers, 
   FileCheck, 
   Award,
 } from "lucide-react";
@@ -59,13 +59,13 @@ export default function SupplierPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#33373B] border border-[#EA580C]/30 text-xs sm:text-sm font-semibold text-[#FB923C]">
             <Building2 className="w-4 h-4 text-[#EA580C]" />
-            Supplier & Railway Client Ecosystem
+            Supplier & Enterprise Client Ecosystem
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight font-['Outfit']">
             Supplier Network & Clients
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto font-normal leading-relaxed">
-            Partnering across major zonal networks and collaborating with quality raw material suppliers and technology providers.
+            Partnering across major industrial sectors, power grids, and transit networks while collaborating with premium raw material and technology providers.
           </p>
         </div>
       </section>
@@ -83,7 +83,7 @@ export default function SupplierPage() {
                 Rudra Rail Services
               </h2>
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                <strong className="text-white">Rudra Rail Services</strong> is the authorized marketing, supply, and procurement partner for RailJet products across railway transit networks. Handling official tenders, divisional supply, and field support for high-precision railway measurement instruments.
+                <strong className="text-white">Rudra Rail Services</strong> is the authorized marketing, supply, and procurement partner for RailJet instruments across heavy engineering, electrical utilities, and transit infrastructure. Handling institutional supply, divisional tenders, and field calibration support.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
@@ -123,41 +123,41 @@ export default function SupplierPage() {
         </div>
       </section>
 
-      {/* 3. Railway Zonal Clients Grid */}
+      {/* 3. Industry & Client Sectors Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-10">
           <span className="text-xs font-bold uppercase tracking-widest text-[#EA580C] bg-orange-50 px-3 py-1 rounded-full border border-orange-200">
-            Zonal Footprint
+            Client Sectors
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-['Outfit']">
-            Our Railway Client Network
+            Key Client & Industry Sectors
           </h2>
           <p className="text-slate-600 text-sm sm:text-base">
-            RailJet and Rudra Rail Services cater to key locomotive workshops, electric loco sheds (ELS), carriage repair sheds, and railway divisions.
+            RailJet and Rudra Rail Services cater to power transmission substations, metro rail networks, rolling stock workshops, and heavy engineering facilities.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {COMPANY_DETAILS.operatingZones.map((zone, idx) => (
+          {COMPANY_DETAILS.clientSectors.map((sector, idx) => (
             <div
               key={idx}
               className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm hover:shadow-lg transition-all space-y-4"
             >
               <div className="flex items-center justify-between">
                 <div className="w-10 h-10 rounded-2xl bg-orange-50 text-[#EA580C] flex items-center justify-center font-bold">
-                  <Train className="w-5 h-5" />
+                  <Zap className="w-5 h-5" />
                 </div>
                 <span className="text-xs font-bold text-[#EA580C] bg-orange-50 px-2.5 py-1 rounded-full border border-orange-200">
-                  {zone.status}
+                  {sector.status}
                 </span>
               </div>
               <div className="space-y-1">
                 <h3 className="text-lg font-bold text-slate-900 font-['Outfit']">
-                  {zone.name}
+                  {sector.name}
                 </h3>
                 <p className="text-xs text-slate-500 font-medium flex items-center gap-1">
-                  <Compass className="w-3.5 h-3.5 text-[#EA580C]" />
-                  Hub: {zone.hub}
+                  <Layers className="w-3.5 h-3.5 text-[#EA580C]" />
+                  Application: {sector.hub}
                 </p>
               </div>
               <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
@@ -206,7 +206,7 @@ export default function SupplierPage() {
                 <Award className="w-5 h-5 text-[#EA580C] shrink-0 mt-0.5" />
                 <div>
                   <h4 className="text-sm font-bold text-slate-900">₹1,000+ Cr Supply Scale</h4>
-                  <p className="text-xs text-slate-500">Join a high-growth supply chain with continuous order pipelines across all railway zones.</p>
+                  <p className="text-xs text-slate-500">Join a high-growth supply chain with continuous order pipelines across major industrial and infrastructure sectors.</p>
                 </div>
               </div>
             </div>
@@ -334,7 +334,7 @@ export default function SupplierPage() {
                     rows={3}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Describe your manufacturing plant capacity and existing railway experience..."
+                    placeholder="Describe your manufacturing plant capacity and existing supply experience..."
                     className="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-[#EA580C] focus:bg-white focus:outline-none"
                   />
                 </div>
