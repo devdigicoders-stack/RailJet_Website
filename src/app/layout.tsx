@@ -4,21 +4,20 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "RailJet Pvt. Ltd. | Railway Engineering & Electrical Testing Solutions",
+  title: "RailJet Co., Ltd. | High-Precision Japanese Railway Testing Instruments",
   description:
-    "RailJet Pvt. Ltd. is a premier railway engineering, rolling stock, bogie suspension, and high-precision electrical testing equipment manufacturer for railway networks.",
+    "RailJet Co., Ltd. (Tokyo, Japan) is a premier manufacturer of precision Earth Resistance Clamp Testers, Phase Volt-Ampere Meters, and electrical diagnostic instruments (Made in Japan).",
   keywords: [
     "RailJet",
-    "RailJet Pvt Ltd",
-    "Railway Engineering supplier",
-    "Earth Resistance Tester",
+    "RailJet Japan",
+    "RailJet Co Ltd",
+    "Tokyo Railway Testing Instruments",
+    "Earth Resistance Clamp Tester",
     "Phase Volt-Ampere Meter",
-    "bogie suspension",
-    "CBC coupler",
-    "coach interior panels",
-    "railway engineering",
-    "RDSO approved vendor",
-    "Railway Networks",
+    "Made in Japan Testing Equipment",
+    "JIS C 1302",
+    "IEC 61010-1",
+    "Shinkansen Testing",
   ],
 };
 

@@ -37,16 +37,16 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Top Announcement Bar - Charcoal with Jet Orange Accent */}
-      <div className="bg-[#191C1E] text-white text-xs py-2 px-4 border-b border-white/10 hidden sm:block">
+      {/* Top Announcement Bar - Japanese High-Tech Minimalist Style */}
+      <div className="bg-[#111417] text-white text-xs py-2 px-4 border-b border-white/10 hidden sm:block">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-3">
             <span className="inline-flex items-center gap-1.5 bg-[#EA580C]/20 text-[#FB923C] px-2.5 py-0.5 rounded-full font-semibold border border-[#EA580C]/40">
               <ShieldCheck className="w-3.5 h-3.5 text-[#EA580C]" />
-              RDSO & ISO 9001:2015 Approved Vendor
+              Made in Japan (日本製) | JIS & IEC Standard
             </span>
             <span className="text-slate-300">
-              Railway Heavy Engineering, Rolling Stock & Electrical Testing
+              High-Precision Transit & Electrical Measurement Instruments
             </span>
           </div>
           <div className="flex items-center gap-4">
@@ -57,8 +57,11 @@ export default function Navbar() {
               <PhoneCall className="w-3.5 h-3.5 text-[#EA580C]" />
               {COMPANY_DETAILS.phone}
             </a>
-            <span className="text-slate-500">|</span>
-            <span className="text-slate-300">Lucknow / Barabanki (UP)</span>
+            <span className="text-slate-600">|</span>
+            <span className="text-slate-300 flex items-center gap-1">
+              <span>🇯🇵</span>
+              <span>Tokyo, Japan (東京都千代田区)</span>
+            </span>
           </div>
         </div>
       </div>

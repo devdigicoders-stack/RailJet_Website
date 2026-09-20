@@ -88,16 +88,17 @@ export default function SupplierPage() {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
                 <div className="bg-white/5 p-3.5 rounded-2xl border border-white/10 space-y-1">
-                  <span className="text-[10px] uppercase font-bold text-slate-400">Marketing & Supply Office</span>
+                  <span className="text-[10px] uppercase font-bold text-slate-400">Marketing & Global Procurement</span>
                   <p className="font-semibold text-slate-200 leading-snug">
-                    1119/05, Amarsanda, Tehsil Fatehpur, Kursi Road, Barabanki (U.P.)
+                    RUDRA RAIL SERVICES <br />
+                    <span className="text-slate-300 text-[11px]">Global Transit Distribution & Supply Desk</span>
                   </p>
                 </div>
                 <div className="bg-white/5 p-3.5 rounded-2xl border border-white/10 space-y-1">
                   <span className="text-[10px] uppercase font-bold text-slate-400">Precision Manufacturing (Mfg By)</span>
                   <p className="font-semibold text-[#FB923C] leading-snug">
-                    RAILJET (Tokyo, Japan) <br />
-                    <span className="text-slate-300 text-[11px]">2-chome, Chiyoda-ku, Tokyo 101-0048</span>
+                    RAILJET (Tokyo, Japan / 日本製) <br />
+                    <span className="text-slate-300 text-[11px]">2-chome, Chiyoda-ku, Tokyo 101-0048, Japan</span>
                   </p>
                 </div>
               </div>
@@ -113,8 +114,8 @@ export default function SupplierPage() {
                 <p className="text-[#FB923C] font-bold">MODEL NO : R1+ / XCRK272</p>
                 <div className="border-t border-white/10 pt-2 space-y-1 text-[11px]">
                   <p><span className="text-slate-400">Mkt By :</span> RUDRA RAIL SERVICES</p>
-                  <p className="text-slate-300">1119/05, Amarsanda, Tehsil Fatehpur, Kursi Road, Barabanki</p>
-                  <p className="pt-1"><span className="text-slate-400">Mfg By :</span> RAILJET</p>
+                  <p className="text-slate-300">Global Transit & Railway Procurement Network</p>
+                  <p className="pt-1"><span className="text-slate-400">Mfg By :</span> RAILJET (Tokyo, Japan)</p>
                   <p className="text-slate-300">2-chome, Chiyoda-ku, Tokyo 101-0048, Japan</p>
                 </div>
               </div>
@@ -205,8 +206,8 @@ export default function SupplierPage() {
               <div className="bg-white p-4 rounded-2xl border border-slate-200 flex items-start gap-3 shadow-sm">
                 <Award className="w-5 h-5 text-[#EA580C] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-sm font-bold text-slate-900">₹1,000+ Cr Supply Scale</h4>
-                  <p className="text-xs text-slate-500">Join a high-growth supply chain with continuous order pipelines across major industrial and infrastructure sectors.</p>
+                  <h4 className="text-sm font-bold text-slate-900">¥180+ Billion Supply Scale</h4>
+                  <p className="text-xs text-slate-500">Join a high-growth supply chain with continuous order pipelines across international industrial and transit sectors.</p>
                 </div>
               </div>
             </div>

@@ -35,7 +35,7 @@ export default function HomePage() {
               {/* M3 Pill Badge */}
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#33373B]/80 backdrop-blur-md border border-[#EA580C]/40 text-xs sm:text-sm font-bold text-[#FB923C] shadow-sm">
                 <Sparkles className="w-4 h-4 text-[#EA580C]" />
-                <span>On The Verge of Achieving ₹1,000 Crore Milestone</span>
+                <span>Tokyo Precision Engineering | ¥180B+ Order Milestone</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.12] font-['Outfit']">
@@ -47,7 +47,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-normal">
-                RailJet Pvt. Ltd. delivers advanced Earth Resistance Clamp Testers, Phase Volt-Ampere Meters, 1000A Digital Multimeters, and Soil Resistivity measurement instruments built for high-voltage railway power networks and signaling infrastructure.
+                RailJet Co., Ltd. (Tokyo, Japan) delivers precision Earth Resistance Clamp Testers, Phase Volt-Ampere Meters, 1000A True RMS Multimeters, and Soil Resistivity measurement instruments built to strict Japanese quality and international IEC standards.
               </p>
 
               {/* Action Buttons */}
@@ -72,15 +72,15 @@ export default function HomePage() {
               <div className="pt-6 border-t border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-4 text-left">
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="w-5 h-5 text-[#EA580C] shrink-0" />
-                  <span className="text-xs text-slate-300 font-medium">IEC 61010-1 Certified</span>
+                  <span className="text-xs text-slate-300 font-medium">JIS C 1302 & IEC Compliant</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Train className="w-5 h-5 text-white shrink-0" />
-                  <span className="text-xs text-slate-300 font-medium">Pan-India Railways</span>
+                  <span className="text-base shrink-0">🇯🇵</span>
+                  <span className="text-xs text-slate-300 font-medium">Made in Japan (日本製)</span>
                 </div>
                 <div className="flex items-center gap-2 col-span-2 sm:col-span-1">
                   <Award className="w-5 h-5 text-[#EA580C] shrink-0" />
-                  <span className="text-xs text-slate-300 font-medium">Zero-Defect Quality</span>
+                  <span className="text-xs text-slate-300 font-medium">Tokyo Calibration Certified</span>
                 </div>
               </div>
             </div>
@@ -369,10 +369,10 @@ export default function HomePage() {
         <div className="bg-[#191C1E] text-white rounded-3xl p-8 sm:p-10 border border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 text-center md:text-left">
             <h3 className="text-2xl font-bold font-['Outfit'] text-white">
-              Need Instrumentation or Calibration Quotation?
+              Need Direct Factory Quotation or Calibration Specs?
             </h3>
             <p className="text-slate-400 text-xs sm:text-sm">
-              Visit our facility at Kursi Road, Barabanki/Lucknow or call our sales desk directly.
+              Connect with our Tokyo corporate headquarters or contact our global instrumentation distribution desk.
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-3">

@@ -31,11 +31,11 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-slate-300 text-sm leading-relaxed">
-              A premier railway engineering company delivering high-performance rolling stock components, electrical testing instruments, and precision transit solutions.
+              Precision Japanese engineering and measurement technology delivering high-performance electrical testing instruments, earth resistance testers, and transit safety equipment.
             </p>
             <div className="inline-flex items-center gap-2 bg-[#24282C] border border-[#EA580C]/30 px-3 py-1.5 rounded-lg text-xs font-semibold text-[#FB923C]">
               <Award className="w-4 h-4 text-[#EA580C]" />
-              ₹1,000+ Crore Business Milestone
+              ¥180+ Billion Global Order Pipeline
             </div>
           </div>
 
@@ -75,15 +75,15 @@ export default function Footer() {
             <ul className="space-y-2 text-xs text-slate-300">
               <li className="flex items-center gap-2 bg-[#24282C] p-2.5 rounded-xl border border-white/5">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C] shrink-0" />
-                <span>Power Grids & Substations</span>
+                <span>High-Speed Rail & Shinkansen</span>
               </li>
               <li className="flex items-center gap-2 bg-[#24282C] p-2.5 rounded-xl border border-white/5">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C] shrink-0" />
-                <span>Metro Rail & Transit Systems</span>
+                <span>Power Grids & EHV Substations</span>
               </li>
               <li className="flex items-center gap-2 bg-[#24282C] p-2.5 rounded-xl border border-white/5">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C] shrink-0" />
-                <span>Heavy Electrical & Switchyards</span>
+                <span>Metro Transit & Mega-Solar Grids</span>
               </li>
             </ul>
           </div>
@@ -92,13 +92,14 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-slate-200 mb-4 flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#EA580C]" />
-              Office & Contact
+              Tokyo HQ & Contact
             </h3>
             <ul className="space-y-3 text-xs text-slate-300">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#EA580C] shrink-0 mt-0.5" />
                 <span className="leading-relaxed">
-                  {COMPANY_DETAILS.address}
+                  2-chome, Chiyoda-ku, Tokyo 101-0048, Japan <br />
+                  <span className="text-slate-400 text-[11px]">〒101-0048 東京都千代田区2丁目</span>
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
@@ -125,14 +126,14 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
-          <p>© {new Date().getFullYear()} RailJet Pvt. Ltd. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} RailJet Co., Ltd. (レールジェット株式会社) All rights reserved. Made in Japan.</p>
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5 text-slate-300">
               <Clock className="w-3.5 h-3.5 text-[#EA580C]" />
-              Mon - Sat: 9:00 AM - 6:30 PM
+              JST: 09:00 - 18:00 (Tokyo Time)
             </span>
             <span>|</span>
-            <span className="text-[#FB923C] font-medium">ISO 9001:2015 & RDSO Compliant</span>
+            <span className="text-[#FB923C] font-medium">JIS C 1302 & IEC 61010-1 Compliant</span>
           </div>
         </div>
       </div>

@@ -53,13 +53,13 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#33373B] border border-[#EA580C]/30 text-xs sm:text-sm font-semibold text-[#FB923C]">
             <Mail className="w-4 h-4 text-[#EA580C]" />
-            Direct Communication Desk
+            Tokyo Headquarters & Global Desk
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight font-['Outfit']">
-            Contact RailJet Pvt. Ltd.
+            Contact RailJet Co., Ltd.
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto font-normal leading-relaxed">
-            Get in touch with our sales, technical engineering, or corporate office in Lucknow / Barabanki.
+            Get in touch with our Tokyo corporate headquarters, precision engineering department, or global distribution desk.
           </p>
         </div>
       </section>
@@ -76,10 +76,10 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold font-['Outfit'] text-slate-900">
-                    Registered Office & Facility
+                    Tokyo Corporate Headquarters
                   </h3>
                   <span className="text-xs text-slate-500 font-medium">
-                    State of Uttar Pradesh, India
+                    Chiyoda-ku, Tokyo, Japan (日本製)
                   </span>
                 </div>
               </div>
@@ -91,12 +91,11 @@ export default function ContactPage() {
                 </div>
                 <div className="space-y-1">
                   <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                    Official Address
+                    Official Head Office Address (Mfg By)
                   </span>
                   <p className="text-xs sm:text-sm font-semibold text-slate-800 leading-relaxed">
-                    1119/05, PARANGNA KURSI (KURSI ROAD), <br />
-                    TEHSIL FATEHPUR, AMARSANDA, BARABANKI, <br />
-                    LUCKNOW, UTTAR PRADESH, 225302
+                    2-chome, Chiyoda-ku, Tokyo 101-0048, Japan <br />
+                    <span className="text-slate-500 font-normal">〒101-0048 東京都千代田区2丁目</span>
                   </p>
                 </div>
               </div>
@@ -108,11 +107,11 @@ export default function ContactPage() {
                 </div>
                 <div className="space-y-1">
                   <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                    Helpline & Sales Number
+                    Global Direct Line
                   </span>
                   <p className="text-sm font-bold text-slate-900">
                     <a href={`tel:${COMPANY_DETAILS.phone}`} className="hover:text-[#EA580C] transition-colors">
-                      +91 7084711000
+                      {COMPANY_DETAILS.phone}
                     </a>
                   </p>
                 </div>
@@ -130,14 +129,14 @@ export default function ContactPage() {
                   <div className="space-y-1 text-xs sm:text-sm font-medium">
                     <div className="flex items-center gap-2">
                       <span className="font-bold text-slate-700 w-14">SALES:</span>
-                      <a href="mailto:railjetsales@gmail.com" className="text-[#EA580C] hover:underline font-semibold">
-                        railjetsales@gmail.com
+                      <a href="mailto:sales@railjet-global.jp" className="text-[#EA580C] hover:underline font-semibold">
+                        sales@railjet-global.jp
                       </a>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span className="font-bold text-slate-700 w-14">STAFF:</span>
-                      <a href="mailto:railjetpvtltd@gmail.com" className="text-slate-700 hover:underline">
-                        railjetpvtltd@gmail.com
+                      <span className="font-bold text-slate-700 w-14">INFO:</span>
+                      <a href="mailto:info@railjet-global.jp" className="text-slate-700 hover:underline">
+                        info@railjet-global.jp
                       </a>
                     </div>
                   </div>
@@ -146,14 +145,6 @@ export default function ContactPage() {
 
               {/* Marketing & Manufacturing Partners Box */}
               <div className="border-t border-slate-100 pt-4 space-y-3">
-                <div className="p-3.5 rounded-2xl bg-orange-50/70 border border-orange-200/80 space-y-1">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#EA580C]">
-                    Marketed By (Mkt By)
-                  </span>
-                  <p className="text-xs font-bold text-slate-900">RUDRA RAIL SERVICES</p>
-                  <p className="text-[11px] text-slate-600">1119/05, Amarsanda, Tehsil Fatehpur, Kursi Road, Barabanki (U.P.)</p>
-                </div>
-
                 <div className="p-3.5 rounded-2xl bg-slate-900 text-white space-y-1">
                   <div className="flex items-center justify-between">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-[#FB923C]">
@@ -161,8 +152,16 @@ export default function ContactPage() {
                     </span>
                     <span className="text-[10px] bg-[#EA580C] px-2 py-0.5 rounded font-bold">Made in Japan</span>
                   </div>
-                  <p className="text-xs font-bold text-white">RAILJET</p>
+                  <p className="text-xs font-bold text-white">RAILJET (レールジェット株式会社)</p>
                   <p className="text-[11px] text-slate-300">2-chome, Chiyoda-ku, Tokyo 101-0048, Japan</p>
+                </div>
+
+                <div className="p-3.5 rounded-2xl bg-orange-50/70 border border-orange-200/80 space-y-1">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#EA580C]">
+                    Authorized Marketing Partner (Mkt By)
+                  </span>
+                  <p className="text-xs font-bold text-slate-900">RUDRA RAIL SERVICES</p>
+                  <p className="text-[11px] text-slate-600">Global Transit & Railway Procurement Network</p>
                 </div>
               </div>
 
@@ -174,19 +173,19 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center gap-2 text-slate-600">
                   <Clock className="w-4 h-4 text-[#EA580C]" />
-                  <span className="font-medium">Mon - Sat: 9 AM - 6:30 PM</span>
+                  <span className="font-medium">JST: 09:00 - 18:00</span>
                 </div>
               </div>
             </div>
 
-            {/* Quality & RDSO Badge */}
+            {/* Quality & Standards Badge */}
             <div className="bg-[#191C1E] p-6 rounded-3xl text-white space-y-2 border border-white/10 shadow-md">
               <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#FB923C]">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C]" />
-                RDSO & Railway Approved Vendor
+                Japanese Quality Standards & Compliance
               </div>
               <p className="text-xs text-slate-300 leading-relaxed">
-                All manufacturing and dispatch lines conform to RDSO and ISO 9001:2015 stringent railway safety standards.
+                All testing devices and instruments are calibrated according to JIS C 1302 and IEC 61010-1 international precision standards.
               </p>
             </div>
           </div>
