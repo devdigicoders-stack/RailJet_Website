@@ -457,13 +457,9 @@ export default function ProductsPage() {
         </div>
       )}
 
-      {/* 5. PHOTO GALLERY & TESTING INSPECTION */}
+      {/* 5. PHOTO GALLERY */}
       <section id="gallery" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
-        <GalleryShowcase 
-          title="All 17 Products & Factory Test Gallery"
-          subtitle="Complete showcase of RailJet Tokyo precision earth clamp meters, high-voltage test setups, production inspection lines, and hard-shell flight transport kits."
-          showFilters={true}
-        />
+        <GalleryShowcase />
       </section>
 
       {/* 6. Bottom Help Section */}

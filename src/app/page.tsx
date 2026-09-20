@@ -319,19 +319,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. OFFICIAL PHOTO GALLERY & LAB TESTING SHOWCASE */}
+      {/* 5. PHOTO GALLERY */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <GalleryShowcase 
-          title="Product Inspection & Testing Gallery"
-          subtitle="Explore authentic photography of our Japanese Earth Resistance Clamp Testers, production testing rigs, calibration setups, and field transit toolkits."
-          limit={8}
-        />
+        <GalleryShowcase limit={8} />
         <div className="pt-6 text-center">
           <Link
             href="/products#gallery"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs sm:text-sm font-bold text-white bg-[#EA580C] hover:bg-[#D94E06] shadow-md shadow-orange-950/30 transition-all active:scale-95"
           >
-            View Complete 17-Photo High-Res Gallery in Products
+            View All Photos in Products
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

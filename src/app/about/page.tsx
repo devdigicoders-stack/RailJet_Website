@@ -205,14 +205,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 5. MANUFACTURING & TESTING FACILITY GALLERY */}
+      {/* 5. PHOTO GALLERY */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <GalleryShowcase 
-          title="Tokyo Manufacturing & Quality Control Gallery"
-          subtitle="Explore the precision assembly processes, calibration chambers, and industrial field equipment of RailJet Co., Ltd."
-          limit={8}
-          showFilters={true}
-        />
+        <GalleryShowcase limit={8} />
       </section>
 
       {/* 6. LOCATION & CONTACT CTA */}
