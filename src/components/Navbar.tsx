@@ -46,7 +46,7 @@ export default function Navbar() {
               RDSO & ISO 9001:2015 Approved Vendor
             </span>
             <span className="text-slate-300">
-              Indian Railways Heavy Engineering & Rolling Stock Components
+              Railway Heavy Engineering, Rolling Stock & Electrical Testing
             </span>
           </div>
           <div className="flex items-center gap-4">

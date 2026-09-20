@@ -31,7 +31,7 @@ export const COMPANY_DETAILS = {
   name: "RailJet Pvt. Ltd.",
   tagline: "Pioneering Railway Testing Instruments, Earth Resistance & Electrical Power Solutions",
   milestone: "₹1,000+ Crore",
-  milestoneDesc: "On the verge of achieving a landmark ₹1000 Crore business milestone, reflecting relentless customer trust, innovation and high-precision testing instruments for Indian Railways.",
+  milestoneDesc: "On the verge of achieving a landmark ₹1000 Crore business milestone, reflecting relentless customer trust, innovation and high-precision testing instruments for Railway Networks & Transit Systems.",
   address: "1119/05, Amarsanda, Tehsil Fatehpur, Kursi Road, Barabanki, Lucknow, Uttar Pradesh - 225302",
   phone: "+91 7084711000",
   whatsapp: "+917084711000",
@@ -44,7 +44,7 @@ export const COMPANY_DETAILS = {
     name: "Rudra Rail Services",
     role: "Main Marketing & Distribution Partner (Mkt By)",
     address: "1119/05, Amarsanda, Tehsil Fatehpur, Kursi Road, Barabanki, Uttar Pradesh",
-    description: "Primary authorized marketing & supply partner for Indian Railways procurement and railway divisional supplies.",
+    description: "Primary authorized marketing & supply partner for Railway procurement, transit utilities, and divisional supplies.",
   },
   manufacturingUnit: {
     name: "RAILJET (Tokyo, Japan)",
@@ -77,7 +77,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
     rdsoCompliant: true,
-    description: "High-precision clamp ground loop resistance & leakage current tester engineered with Japanese precision technology. Marketed in India by Rudra Rail Services for Indian Railways traction & signalling earth pits.",
+    description: "High-precision clamp ground loop resistance & leakage current tester engineered with Japanese precision technology. Marketed in India by Rudra Rail Services for railway traction & signalling earth pits.",
     keyHighlights: [
       "Model: R1+ (Made in Japan)",
       "Marketed by: Rudra Rail Services",

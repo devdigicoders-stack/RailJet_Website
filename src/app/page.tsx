@@ -47,7 +47,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-normal">
-                RailJet Pvt. Ltd. delivers advanced Earth Resistance Clamp Testers, Phase Volt-Ampere Meters, 1000A Digital Multimeters, and Soil Resistivity measurement instruments built for Indian Railways power networks and signaling infrastructure.
+                RailJet Pvt. Ltd. delivers advanced Earth Resistance Clamp Testers, Phase Volt-Ampere Meters, 1000A Digital Multimeters, and Soil Resistivity measurement instruments built for high-voltage railway power networks and signaling infrastructure.
               </p>
 
               {/* Action Buttons */}
@@ -312,7 +312,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. INDIAN RAILWAYS CLIENT & SUPPLIER NETWORK */}
+      {/* 5. RAILWAY CLIENT & SUPPLIER NETWORK */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-r from-[#191C1E] via-[#24282C] to-[#33373B] rounded-3xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -322,10 +322,10 @@ export default function HomePage() {
                 Pan-India Railway Presence
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold font-['Outfit']">
-                Indian Railways Zones & Network
+                Railway Client Zones & Network
               </h2>
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                RailJet Pvt Ltd supplies testing instruments and electrical solutions to locomotive sheds, electric loco sheds (ELS), diesel loco sheds (DLS), and signaling departments across Northern, Western, Eastern, Southern, and Central Railways.
+                RailJet Pvt Ltd supplies testing instruments and electrical solutions to locomotive sheds, electric loco sheds (ELS), diesel loco sheds (DLS), and signaling departments across major transit networks.
               </p>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">

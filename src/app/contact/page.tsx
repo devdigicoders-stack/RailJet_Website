@@ -183,7 +183,7 @@ export default function ContactPage() {
             <div className="bg-[#191C1E] p-6 rounded-3xl text-white space-y-2 border border-white/10 shadow-md">
               <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#FB923C]">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C]" />
-                Indian Railways Verified Vendor
+                RDSO & Railway Approved Vendor
               </div>
               <p className="text-xs text-slate-300 leading-relaxed">
                 All manufacturing and dispatch lines conform to RDSO and ISO 9001:2015 stringent railway safety standards.
@@ -266,7 +266,7 @@ export default function ContactPage() {
                       <option>Product Quotation & Inquiry</option>
                       <option>Rolling Stock & Bogie Spares</option>
                       <option>Vendor & Supplier Partnership</option>
-                      <option>Tender & Indian Railways RFQ</option>
+                      <option>Tender & Institutional RFQ</option>
                       <option>Other Support</option>
                     </select>
                   </div>

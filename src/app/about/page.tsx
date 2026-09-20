@@ -16,8 +16,8 @@ import {
 import { COMPANY_DETAILS } from "@/data/companyData";
 
 export const metadata = {
-  title: "About Us | RailJet Pvt. Ltd. - Indian Railways Engineering",
-  description: "Learn about RailJet Pvt. Ltd., our ₹1000+ Crore business milestone, manufacturing capabilities, leadership, and mission for Indian Railways.",
+  title: "About Us | RailJet Pvt. Ltd. - Railway Engineering & Solutions",
+  description: "Learn about RailJet Pvt. Ltd., our ₹1000+ Crore business milestone, manufacturing capabilities, leadership, and mission for railway networks and transit systems.",
 };
 
 export default function AboutPage() {
@@ -34,7 +34,7 @@ export default function AboutPage() {
             About RailJet Pvt. Ltd.
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto font-normal leading-relaxed">
-            Delivering precision engineering, high-durability rolling stock equipment, and quality excellence for Indian Railways nationwide.
+            Delivering precision engineering, high-durability rolling stock equipment, and quality excellence for railway networks nationwide.
           </p>
         </div>
       </section>
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 Business & Order Scale
               </div>
               <p className="text-xs text-orange-100 pt-1">
-                Validated by sustained contracts across all major Indian Railway zones.
+                Validated by sustained contracts across major railway and transit networks.
               </p>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-slate-600 text-sm leading-relaxed">
-                To deliver state-of-the-art railway components and rolling stock solutions that elevate rail safety, operational speed, and passenger comfort, while exceeding the highest standards of Indian Railways.
+                To deliver state-of-the-art railway components and rolling stock solutions that elevate rail safety, operational speed, and passenger comfort, while exceeding the highest industry standards.
               </p>
             </div>
 

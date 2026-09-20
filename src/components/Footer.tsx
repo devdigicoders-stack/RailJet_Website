@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-slate-300 text-sm leading-relaxed">
-              A premier railway engineering company delivering high-performance rolling stock components, bogie assemblies, track fasteners, and coach interiors across Indian Railways.
+              A premier railway engineering company delivering high-performance rolling stock components, electrical testing instruments, and precision transit solutions.
             </p>
             <div className="inline-flex items-center gap-2 bg-[#24282C] border border-[#EA580C]/30 px-3 py-1.5 rounded-lg text-xs font-semibold text-[#FB923C]">
               <Award className="w-4 h-4 text-[#EA580C]" />
@@ -66,7 +66,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Indian Railways Zones */}
+          {/* Column 3: Railway Zones */}
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-slate-200 mb-4 flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#EA580C]" />

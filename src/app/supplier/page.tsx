@@ -59,13 +59,13 @@ export default function SupplierPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#33373B] border border-[#EA580C]/30 text-xs sm:text-sm font-semibold text-[#FB923C]">
             <Building2 className="w-4 h-4 text-[#EA580C]" />
-            Supplier & Indian Railways Client Ecosystem
+            Supplier & Railway Client Ecosystem
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight font-['Outfit']">
             Supplier Network & Clients
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto font-normal leading-relaxed">
-            Partnering with Indian Railways across major zonal networks and collaborating with quality raw material suppliers and technology providers.
+            Partnering across major zonal networks and collaborating with quality raw material suppliers and technology providers.
           </p>
         </div>
       </section>
@@ -83,7 +83,7 @@ export default function SupplierPage() {
                 Rudra Rail Services
               </h2>
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                <strong className="text-white">Rudra Rail Services</strong> is the authorized marketing, supply, and procurement partner for RailJet products across Indian Railways. Handling official tenders, divisional supply, and field support for high-precision railway measurement instruments.
+                <strong className="text-white">Rudra Rail Services</strong> is the authorized marketing, supply, and procurement partner for RailJet products across railway transit networks. Handling official tenders, divisional supply, and field support for high-precision railway measurement instruments.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
@@ -123,14 +123,14 @@ export default function SupplierPage() {
         </div>
       </section>
 
-      {/* 3. Indian Railways Zonal Clients Grid */}
+      {/* 3. Railway Zonal Clients Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-10">
           <span className="text-xs font-bold uppercase tracking-widest text-[#EA580C] bg-orange-50 px-3 py-1 rounded-full border border-orange-200">
             Zonal Footprint
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-['Outfit']">
-            Our Indian Railways Client Network
+            Our Railway Client Network
           </h2>
           <p className="text-slate-600 text-sm sm:text-base">
             RailJet and Rudra Rail Services cater to key locomotive workshops, electric loco sheds (ELS), carriage repair sheds, and railway divisions.
