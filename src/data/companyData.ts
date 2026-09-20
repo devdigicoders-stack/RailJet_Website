@@ -305,3 +305,134 @@ export const PRODUCTS_LIST: ProductItem[] = [
     image: "/images/product_fr207.png",
   },
 ];
+
+export interface GalleryImageItem {
+  id: number;
+  title: string;
+  category: "Instruments" | "Testing & Calibration" | "Production & QA" | "Packaging & Field Kits";
+  description: string;
+  image: string;
+}
+
+export const GALLERY_IMAGES: GalleryImageItem[] = [
+  {
+    id: 1,
+    title: "RailJet Clamp Earth Resistance Tester - Front Display",
+    category: "Instruments",
+    description: "High-contrast LCD digital screen measuring ground loop resistance with automatic interference filter.",
+    image: "/images/imagesj/railjet_gallery_1.jpeg",
+  },
+  {
+    id: 2,
+    title: "Precision Calibration & Quality Verification",
+    category: "Testing & Calibration",
+    description: "Rigorous laboratory testing ensuring 99.99% measurement accuracy under JIS C 1302 standards.",
+    image: "/images/imagesj/railjet_gallery_2.jpeg",
+  },
+  {
+    id: 3,
+    title: "Heavy-Duty Transit Testing Equipment",
+    category: "Instruments",
+    description: "Engineered for high-voltage railway substations, traction lines, and signaling earth pits.",
+    image: "/images/imagesj/railjet_gallery_3.jpeg",
+  },
+  {
+    id: 4,
+    title: "Digital Multi-Parameter Meter Display",
+    category: "Instruments",
+    description: "Real-time voltage, current, and phase sequence measurement in a compact ergonomic enclosure.",
+    image: "/images/imagesj/railjet_gallery_4.jpeg",
+  },
+  {
+    id: 5,
+    title: "Precision Sensor Clamp & Measuring Jaws",
+    category: "Instruments",
+    description: "High-permeability alloy magnetic core designed for non-contact loop resistance testing.",
+    image: "/images/imagesj/railjet_gallery_5.jpeg",
+  },
+  {
+    id: 6,
+    title: "Industrial Field Protective Casing & Accessories",
+    category: "Packaging & Field Kits",
+    description: "Shock-proof, dust-proof transport kit with test leads, calibration loops, and user manuals.",
+    image: "/images/imagesj/railjet_gallery_6.jpeg",
+  },
+  {
+    id: 7,
+    title: "Production Line Calibration & Assembly",
+    category: "Production & QA",
+    description: "Tokyo precision manufacturing line ensuring flawless build quality and rugged durability.",
+    image: "/images/imagesj/railjet_gallery_7.jpeg",
+  },
+  {
+    id: 8,
+    title: "Earth Resistance Testing in Operational Field",
+    category: "Testing & Calibration",
+    description: "Direct on-site railway grounding measurement without driving auxiliary ground spikes.",
+    image: "/images/imagesj/railjet_gallery_8.jpeg",
+  },
+  {
+    id: 9,
+    title: "Smart Clamp Meter with Bluetooth & Data Logging",
+    category: "Instruments",
+    description: "Synchronous data storage for up to 500 test groups with wireless mobile application sync.",
+    image: "/images/imagesj/railjet_gallery_9.jpeg",
+  },
+  {
+    id: 10,
+    title: "True RMS High-Voltage Clamp Multimeter",
+    category: "Instruments",
+    description: "Capable of measuring up to 1700V DC and 1000A AC/DC inrush current for traction motors.",
+    image: "/images/imagesj/railjet_gallery_10.jpeg",
+  },
+  {
+    id: 11,
+    title: "Soil Resistivity & Ground Pile Testing System",
+    category: "Instruments",
+    description: "Wenner 4-pole method soil resistivity calculation for mega-power grids and rail transit.",
+    image: "/images/imagesj/railjet_gallery_11.jpeg",
+  },
+  {
+    id: 12,
+    title: "High-Resolution Dual Display Interface",
+    category: "Instruments",
+    description: "Simultaneous resistance and leakage current reading with backlight for low-light environments.",
+    image: "/images/imagesj/railjet_gallery_12.jpeg",
+  },
+  {
+    id: 13,
+    title: "Comprehensive Ground Grid Diagnostics",
+    category: "Testing & Calibration",
+    description: "Fast digital filtering for strong anti-interference performance in 500kV substations.",
+    image: "/images/imagesj/railjet_gallery_13.jpeg",
+  },
+  {
+    id: 14,
+    title: "Phase Sequence & Power Factor Analyzer",
+    category: "Instruments",
+    description: "Smart 360° phase angle analysis for CT differential protection and transformer wiring.",
+    image: "/images/imagesj/railjet_gallery_14.jpeg",
+  },
+  {
+    id: 15,
+    title: "Standard Hard-Shell Protective Flight Case",
+    category: "Packaging & Field Kits",
+    description: "Heavy-duty aluminum-reinforced transport case built for rough transit field engineering.",
+    image: "/images/imagesj/railjet_gallery_15.jpeg",
+  },
+  {
+    id: 16,
+    title: "Laboratory Calibration & Certificate Compliance",
+    category: "Production & QA",
+    description: "JIS C 1302 and IEC 61010-1 compliance testing with official calibration verification.",
+    image: "/images/imagesj/railjet_gallery_16.jpeg",
+  },
+  {
+    id: 17,
+    title: "RailJet Flagship Series Complete Showcase",
+    category: "Instruments",
+    description: "Complete lineup of precision Japanese electrical testing and measurement instruments.",
+    image: "/images/imagesj/railjet_gallery_17.jpeg",
+  },
+];
+

@@ -14,6 +14,7 @@ import {
   Layers
 } from "lucide-react";
 import { COMPANY_DETAILS } from "@/data/companyData";
+import GalleryShowcase from "@/components/GalleryShowcase";
 
 export const metadata = {
   title: "About Us | RailJet Co., Ltd. - Japanese Precision Measurement",
@@ -204,7 +205,17 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 5. LOCATION & CONTACT CTA */}
+      {/* 5. MANUFACTURING & TESTING FACILITY GALLERY */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <GalleryShowcase 
+          title="Tokyo Manufacturing & Quality Control Gallery"
+          subtitle="Explore the precision assembly processes, calibration chambers, and industrial field equipment of RailJet Co., Ltd."
+          limit={8}
+          showFilters={true}
+        />
+      </section>
+
+      {/* 6. LOCATION & CONTACT CTA */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl p-8 sm:p-10 border border-slate-200 shadow-md flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2">

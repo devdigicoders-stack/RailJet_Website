@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 import confetti from "canvas-confetti";
 import { PRODUCTS_LIST, ProductItem } from "@/data/companyData";
+import GalleryShowcase from "@/components/GalleryShowcase";
 
 const CATEGORIES = [
   "All Categories",
@@ -456,7 +457,16 @@ export default function ProductsPage() {
         </div>
       )}
 
-      {/* 5. Bottom Help Section */}
+      {/* 5. PHOTO GALLERY & TESTING INSPECTION */}
+      <section id="gallery" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <GalleryShowcase 
+          title="All 17 Products & Factory Test Gallery"
+          subtitle="Complete showcase of RailJet Tokyo precision earth clamp meters, high-voltage test setups, production inspection lines, and hard-shell flight transport kits."
+          showFilters={true}
+        />
+      </section>
+
+      {/* 6. Bottom Help Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-[#191C1E] text-white rounded-3xl p-8 sm:p-10 border border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-1 text-center md:text-left">

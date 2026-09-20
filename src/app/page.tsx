@@ -17,6 +17,8 @@ import {
   Gauge
 } from "lucide-react";
 import { COMPANY_DETAILS, PRODUCTS_LIST } from "@/data/companyData";
+import GalleryShowcase from "@/components/GalleryShowcase";
+import HomeImageSlider from "@/components/HomeImageSlider";
 
 export default function HomePage() {
   return (
@@ -152,6 +154,11 @@ export default function HomePage() {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* 2.5. LIVE INTERACTIVE IMAGE SLIDER & PRODUCT DEMO */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <HomeImageSlider />
       </section>
 
       {/* 3. CORE INSTRUMENT CATEGORIES */}
@@ -312,7 +319,25 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. CLIENT SECTORS & SUPPLIER NETWORK */}
+      {/* 5. OFFICIAL PHOTO GALLERY & LAB TESTING SHOWCASE */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <GalleryShowcase 
+          title="Product Inspection & Testing Gallery"
+          subtitle="Explore authentic photography of our Japanese Earth Resistance Clamp Testers, production testing rigs, calibration setups, and field transit toolkits."
+          limit={8}
+        />
+        <div className="pt-6 text-center">
+          <Link
+            href="/products#gallery"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs sm:text-sm font-bold text-white bg-[#EA580C] hover:bg-[#D94E06] shadow-md shadow-orange-950/30 transition-all active:scale-95"
+          >
+            View Complete 17-Photo High-Res Gallery in Products
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+      </section>
+
+      {/* 6. CLIENT SECTORS & SUPPLIER NETWORK */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-r from-[#191C1E] via-[#24282C] to-[#33373B] rounded-3xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
