@@ -71,6 +71,33 @@ export const COMPANY_DETAILS = {
   ],
 };
 
+export interface GlobalSupplierItem {
+  id: number;
+  country: string;
+  flag: string;
+  supplierName: string;
+  region: string;
+  badge?: string;
+}
+
+export const GLOBAL_SUPPLIERS_LIST: GlobalSupplierItem[] = [
+  { id: 1, country: "USA", flag: "🇺🇸", supplierName: "TEquipment", region: "North America", badge: "Authorized Distributor" },
+  { id: 2, country: "China", flag: "🇨🇳", supplierName: "Shenzhen Test Instrument", region: "East Asia", badge: "Technical Partner" },
+  { id: 3, country: "Hong Kong", flag: "🇭🇰", supplierName: "RS Hong Kong", region: "Asia Pacific", badge: "Direct Procurement" },
+  { id: 4, country: "South Korea", flag: "🇰🇷", supplierName: "Eleparts", region: "East Asia", badge: "Channel Partner" },
+  { id: 5, country: "Taiwan", flag: "🇹🇼", supplierName: "Evencat", region: "East Asia", badge: "Authorized Supplier" },
+  { id: 6, country: "Singapore", flag: "🇸🇬", supplierName: "Unitest Instruments", region: "Southeast Asia", badge: "ASEAN Hub" },
+  { id: 7, country: "Thailand", flag: "🇹🇭", supplierName: "Measuretronix", region: "Southeast Asia", badge: "Regional Distributor" },
+  { id: 8, country: "Vietnam", flag: "🇻🇳", supplierName: "Peritec", region: "Southeast Asia", badge: "Authorized Supplier" },
+  { id: 9, country: "Germany", flag: "🇩🇪", supplierName: "Conrad Electronic", region: "Europe (EU)", badge: "EU Direct Supplier" },
+  { id: 10, country: "Malaysia", flag: "🇲🇾", supplierName: "RS Malaysia", region: "Southeast Asia", badge: "Authorized Partner" },
+  { id: 11, country: "India", flag: "🇮🇳", supplierName: "Rudra Rail Services", region: "South Asia", badge: "Primary Mkt & Supply Partner" },
+  { id: 12, country: "Mexico", flag: "🇲🇽", supplierName: "Grainger México", region: "North America", badge: "Industrial Supply" },
+  { id: 13, country: "Netherlands", flag: "🇳🇱", supplierName: "RS Netherlands", region: "Europe (EU)", badge: "European Logistics Hub" },
+  { id: 14, country: "UK", flag: "🇬🇧", supplierName: "Caltest Instruments", region: "United Kingdom", badge: "Calibration & Supply" },
+  { id: 15, country: "Indonesia", flag: "🇮🇩", supplierName: "PT Best Instrument", region: "Southeast Asia", badge: "Regional Supplier" },
+];
+
 export const PRODUCTS_LIST: ProductItem[] = [
   {
     id: "prod-1",
