@@ -188,7 +188,7 @@ export default function SupplierPage() {
               </div>
               <div className="font-mono text-xs space-y-2 text-slate-200 bg-black/40 p-4 rounded-xl border border-white/10">
                 <p className="font-bold text-white text-sm">CLAMP EARTH RESISTANCE TESTER</p>
-                <p className="text-[#FB923C] font-bold">MODEL NO : R1+ / FR2000C+</p>
+                <p className="text-[#FB923C] font-bold">MODEL NO : R1+</p>
                 <div className="border-t border-white/10 pt-2 space-y-1 text-[11px]">
                   <p><span className="text-slate-400">Mkt By :</span> RUDRA RAIL SERVICES</p>
                   <p className="text-slate-300">Global Transit & Railway Procurement Network</p>

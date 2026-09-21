@@ -26,10 +26,7 @@ import GalleryShowcase from "@/components/GalleryShowcase";
 const CATEGORIES = [
   "All Categories",
   "Earth Clamp Testers",
-  "Phase & Power Meters",
-  "Digital Multimeters",
   "Soil Resistivity Testers",
-  "Insulation & Grounding",
 ] as const;
 
 export default function ProductsPage() {
@@ -134,7 +131,7 @@ export default function ProductsPage() {
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search by model (e.g. RR, RR+, R1, R1+, R2, R3, R3+, FR2000, ES3022)..."
+                placeholder="Search by model (e.g. RR, RR+, R1, R1+, R2, R3, R3+)..."
                 className="w-full pl-11 pr-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-[#EA580C] focus:bg-white transition-all"
               />
               {searchQuery && (

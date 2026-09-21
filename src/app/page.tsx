@@ -240,10 +240,10 @@ export default function HomePage() {
             <div>
               <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#EA580C] bg-white px-3 py-1 rounded-full border border-slate-200 shadow-sm mb-2">
                 <FileSpreadsheet className="w-3.5 h-3.5" />
-                Official Products from Catalog
+                7 Official Products from Catalog
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-['Outfit']">
-                Our Official Testing Products
+                Our 7 Official Testing Products
               </h2>
             </div>
             <Link
