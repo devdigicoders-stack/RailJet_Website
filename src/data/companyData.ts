@@ -65,12 +65,205 @@ export const COMPANY_DETAILS = {
     { name: "Heavy Industrial Engineering Plants", hub: "Precision Plant Grounding & Insulation Safety", status: "Certified Vendor" },
   ],
   stats: [
+    { label: "Industry Legacy", value: "20–25 Yrs", subtext: "Continuous Engineering Excellence" },
     { label: "Global Order Scale", value: "¥180B+", subtext: "International Transit Pipeline" },
-    { label: "Engineering Standard", value: "JIS / IEC", subtext: "Japanese Industrial Standards" },
-    { label: "Flagship Instruments", value: "7 Models", subtext: "Precision Grounding & Clamp Series" },
+    { label: "Tokyo Engineering Team", value: "20+", subtext: "Precision Specialists & R&D Staff" },
     { label: "Testing Reliability", value: "99.99%", subtext: "Tokyo Calibration Certified" },
   ],
 };
+
+export interface EmployeeItem {
+  id: number;
+  nameEn: string;
+  nameJp: string;
+  role: string;
+  department: string;
+  email: string;
+  experience: string;
+}
+
+export const JAPAN_EMPLOYEES: EmployeeItem[] = [
+  {
+    id: 1,
+    nameEn: "Kenji Takahashi",
+    nameJp: "高橋 健二",
+    role: "Chief Executive Officer & Founder",
+    department: "Executive Management",
+    email: "k.takahashi@railjet-global.jp",
+    experience: "25 Years Exp."
+  },
+  {
+    id: 2,
+    nameEn: "Hiroshi Tanaka",
+    nameJp: "田中 浩",
+    role: "Chief Technical Officer (CTO)",
+    department: "R&D & Engineering",
+    email: "h.tanaka@railjet-global.jp",
+    experience: "24 Years Exp."
+  },
+  {
+    id: 3,
+    nameEn: "Daiki Sato",
+    nameJp: "佐藤 大樹",
+    role: "Head of Hardware Architecture",
+    department: "R&D & Hardware",
+    email: "d.sato@railjet-global.jp",
+    experience: "22 Years Exp."
+  },
+  {
+    id: 4,
+    nameEn: "Kazuki Watanabe",
+    nameJp: "渡辺 一樹",
+    role: "Lead Sensor Design Engineer",
+    department: "Precision Sensor Lab",
+    email: "k.watanabe@railjet-global.jp",
+    experience: "20 Years Exp."
+  },
+  {
+    id: 5,
+    nameEn: "Takashi Ito",
+    nameJp: "伊藤 貴司",
+    role: "Principal Calibration Specialist",
+    department: "JIS Quality Lab",
+    email: "t.ito@railjet-global.jp",
+    experience: "21 Years Exp."
+  },
+  {
+    id: 6,
+    nameEn: "Naoki Yamamoto",
+    nameJp: "山本 直樹",
+    role: "High-Voltage Isolation Engineer",
+    department: "Safety & Compliance",
+    email: "n.yamamoto@railjet-global.jp",
+    experience: "19 Years Exp."
+  },
+  {
+    id: 7,
+    nameEn: "Shinji Nakamura",
+    nameJp: "中村 慎二",
+    role: "Embedded Firmware Architect",
+    department: "Firmware & Software",
+    email: "s.nakamura@railjet-global.jp",
+    experience: "18 Years Exp."
+  },
+  {
+    id: 8,
+    nameEn: "Yuki Kobayashi",
+    nameJp: "小林 勇樹",
+    role: "DSP & Noise Filtering Specialist",
+    department: "R&D & Signal Processing",
+    email: "y.kobayashi@railjet-global.jp",
+    experience: "16 Years Exp."
+  },
+  {
+    id: 9,
+    nameEn: "Kenta Kato",
+    nameJp: "加藤 健太",
+    role: "Microprocessor & PCB Engineer",
+    department: "Hardware Engineering",
+    email: "k.kato@railjet-global.jp",
+    experience: "15 Years Exp."
+  },
+  {
+    id: 10,
+    nameEn: "Ryota Yoshida",
+    nameJp: "吉田 亮太",
+    role: "Production & Cleanroom Manager",
+    department: "Tokyo Manufacturing Plant",
+    email: "r.yoshida@railjet-global.jp",
+    experience: "20 Years Exp."
+  },
+  {
+    id: 11,
+    nameEn: "Akira Yamada",
+    nameJp: "山田 彰",
+    role: "QA & Reliability Lead",
+    department: "Quality Assurance",
+    email: "a.yamada@railjet-global.jp",
+    experience: "17 Years Exp."
+  },
+  {
+    id: 12,
+    nameEn: "Souta Sasaki",
+    nameJp: "佐々木 颯太",
+    role: "Environmental Testing Specialist",
+    department: "Environmental & Stress QA",
+    email: "s.sasaki@railjet-global.jp",
+    experience: "14 Years Exp."
+  },
+  {
+    id: 13,
+    nameEn: "Masato Yamaguchi",
+    nameJp: "山口 正人",
+    role: "Senior Metrology Technician",
+    department: "Tokyo Calibration Lab",
+    email: "m.yamaguchi@railjet-global.jp",
+    experience: "19 Years Exp."
+  },
+  {
+    id: 14,
+    nameEn: "Tatsuya Matsumoto",
+    nameJp: "松本 達也",
+    role: "Grounding Diagnostics Engineer",
+    department: "Railway Transit Applications",
+    email: "t.matsumoto@railjet-global.jp",
+    experience: "15 Years Exp."
+  },
+  {
+    id: 15,
+    nameEn: "Yuto Inoue",
+    nameJp: "井上 悠斗",
+    role: "Bluetooth Telematics Engineer",
+    department: "Smart IoT & Cloud Tech",
+    email: "y.inoue@railjet-global.jp",
+    experience: "12 Years Exp."
+  },
+  {
+    id: 16,
+    nameEn: "Shohei Kimura",
+    nameJp: "木村 翔平",
+    role: "Substation Systems Application Lead",
+    department: "Field Technical Support",
+    email: "s.kimura@railjet-global.jp",
+    experience: "16 Years Exp."
+  },
+  {
+    id: 17,
+    nameEn: "Kenichi Hayashi",
+    nameJp: "林 健一",
+    role: "International Supply Chain Director",
+    department: "Global Operations",
+    email: "k.hayashi@railjet-global.jp",
+    experience: "22 Years Exp."
+  },
+  {
+    id: 18,
+    nameEn: "Keisuke Shimizu",
+    nameJp: "清水 圭介",
+    role: "Global Procurement & Logistics Head",
+    department: "Logistics & Supply Chain",
+    email: "k.shimizu@railjet-global.jp",
+    experience: "18 Years Exp."
+  },
+  {
+    id: 19,
+    nameEn: "Haruto Saito",
+    nameJp: "斉藤 陽斗",
+    role: "International Client Solutions Manager",
+    department: "Global Sales & Support",
+    email: "h.saito@railjet-global.jp",
+    experience: "14 Years Exp."
+  },
+  {
+    id: 20,
+    nameEn: "Tomoya Mori",
+    nameJp: "森 智也",
+    role: "Compliance & Standards Officer (JIS/IEC)",
+    department: "Regulatory Compliance",
+    email: "t.mori@railjet-global.jp",
+    experience: "21 Years Exp."
+  },
+];
 
 export interface GlobalSupplierItem {
   id: number;

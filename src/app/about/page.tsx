@@ -11,14 +11,18 @@ import {
   TrendingUp,
   MapPin,
   Cpu,
-  Layers
+  Layers,
+  Users,
+  Mail,
+  Clock,
+  Briefcase
 } from "lucide-react";
-import { COMPANY_DETAILS } from "@/data/companyData";
+import { COMPANY_DETAILS, JAPAN_EMPLOYEES } from "@/data/companyData";
 import GalleryShowcase from "@/components/GalleryShowcase";
 
 export const metadata = {
   title: "About Us | RailJet Co., Ltd. - Japanese Precision Measurement",
-  description: "Learn about RailJet Co., Ltd. (Tokyo, Japan), our ¥180+ Billion order scale, Tokyo precision testing instruments manufacturing, and mission for global transit networks.",
+  description: "Learn about RailJet Co., Ltd. (Tokyo, Japan), our 20–25 years legacy of precision engineering, 20+ specialized Japanese engineering staff, and ¥180+ Billion global transit orders.",
 };
 
 export default function AboutPage() {
@@ -29,18 +33,18 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#33373B] border border-[#EA580C]/30 text-xs sm:text-sm font-semibold text-[#FB923C]">
             <Award className="w-4 h-4 text-[#EA580C]" />
-            Tokyo Precision Engineering Heritage (日本製)
+            20–25 Years of Tokyo Precision Engineering Heritage (創業20〜25年の伝統と実績)
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight font-['Outfit']">
             About RailJet Co., Ltd.
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto font-normal leading-relaxed">
-            Delivering high-precision Japanese electrical testing instruments, earth ground resistance analyzers, and transit safety solutions worldwide.
+            Delivering high-precision Japanese electrical testing instruments, earth ground resistance analyzers, and transit safety solutions worldwide with a dedicated Tokyo engineering team of 20+ specialists.
           </p>
         </div>
       </section>
 
-      {/* 2. ¥180 BILLION MILESTONE HIGHLIGHT */}
+      {/* 2. ¥180 BILLION & 20-25 YEARS MILESTONE HIGHLIGHT */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-20">
         <div className="bg-gradient-to-br from-[#EA580C] via-[#F25A22] to-[#C2410C] text-white rounded-3xl p-8 sm:p-12 shadow-xl relative overflow-hidden">
           <div className="absolute right-0 bottom-0 opacity-10 translate-x-12 translate-y-12 pointer-events-none">
@@ -51,26 +55,52 @@ export default function AboutPage() {
             <div className="lg:col-span-8 space-y-4">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/25 text-white text-xs font-bold uppercase tracking-wider">
                 <TrendingUp className="w-4 h-4 text-white" />
-                Global Order Scale & Deployment
+                20–25 Years Proven Reliability & Global Scale
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold font-['Outfit'] leading-tight">
-                Surpassing ¥180 Billion in Global Measurement Orders
+                20–25 Years of Japanese Precision & Surpassing ¥180 Billion in Orders
               </h2>
               <blockquote className="text-orange-50 text-sm sm:text-base leading-relaxed bg-black/20 p-5 rounded-2xl border border-white/20">
-                &ldquo;RailJet is honored to reach a major landmark of over ¥180 Billion in international procurement pipeline, demonstrating steadfast client confidence in Tokyo precision engineering, rugged longevity, and uncompromised measurement accuracy.&rdquo;
+                &ldquo;For over 20 to 25 years, RailJet Co., Ltd. has stood at the forefront of electrical safety and precision grounding instrumentation in Tokyo, Japan. Backed by our dedicated 20-member Japanese engineering and research team, we have achieved a major international procurement milestone exceeding ¥180 Billion.&rdquo;
               </blockquote>
             </div>
 
-            <div className="lg:col-span-4 bg-black/25 backdrop-blur-md p-6 rounded-2xl border border-white/20 text-center space-y-2">
-              <div className="text-5xl font-black font-['Outfit'] text-white">
-                ¥180B+
+            <div className="lg:col-span-4 grid grid-cols-2 gap-3">
+              <div className="bg-black/25 backdrop-blur-md p-4 sm:p-5 rounded-2xl border border-white/20 text-center space-y-1">
+                <div className="text-3xl sm:text-4xl font-black font-['Outfit'] text-white">
+                  20-25
+                </div>
+                <div className="text-[11px] uppercase tracking-wider font-bold text-orange-200">
+                  Years of Heritage
+                </div>
+                <p className="text-[10px] text-orange-100">
+                  20〜25年の製造実績
+                </p>
               </div>
-              <div className="text-xs uppercase tracking-wider font-bold text-orange-200">
-                International Order Pipeline
+
+              <div className="bg-black/25 backdrop-blur-md p-4 sm:p-5 rounded-2xl border border-white/20 text-center space-y-1">
+                <div className="text-3xl sm:text-4xl font-black font-['Outfit'] text-white">
+                  ¥180B+
+                </div>
+                <div className="text-[11px] uppercase tracking-wider font-bold text-orange-200">
+                  Global Orders
+                </div>
+                <p className="text-[10px] text-orange-100">
+                  世界15カ国以上
+                </p>
               </div>
-              <p className="text-xs text-orange-100 pt-1">
-                Validated by active deployments across global high-speed transit and EHV power grids.
-              </p>
+
+              <div className="bg-black/25 backdrop-blur-md p-4 sm:p-5 rounded-2xl border border-white/20 text-center space-y-1 col-span-2">
+                <div className="text-3xl sm:text-4xl font-black font-['Outfit'] text-white">
+                  20+ Staff
+                </div>
+                <div className="text-[11px] uppercase tracking-wider font-bold text-orange-200">
+                  Tokyo Engineering Team (専門技術者)
+                </div>
+                <p className="text-[10px] text-orange-100">
+                  JIS C 1302 & IEC 61010-1 Certified Specialists
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -82,7 +112,7 @@ export default function AboutPage() {
           <div className="space-y-6">
             <div className="space-y-2">
               <span className="text-xs font-bold uppercase tracking-widest text-[#EA580C]">
-                Corporate Identity
+                Corporate Identity • 20–25 Years Heritage
               </span>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-['Outfit']">
                 Precision Japanese Engineering for Critical Power & Rail Infrastructure
@@ -90,11 +120,11 @@ export default function AboutPage() {
             </div>
 
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-              RailJet Co., Ltd. (Tokyo, Japan) is an elite manufacturer specializing in advanced earth resistance clamp meters, soil resistivity systems, and digital instrumentation. Built with authentic Japanese hardware standards, our instruments serve high-speed train networks, power substations, and industrial manufacturing plants across Asia and globally.
+              RailJet Co., Ltd. (Tokyo, Japan) is an elite manufacturer specializing in advanced earth resistance clamp meters, soil resistivity systems, and digital instrumentation for over <strong>20 to 25 years</strong>. Operating with a core team of <strong>20 highly trained Japanese engineers, metrologists, and QA researchers</strong>, our instruments serve high-speed train networks, power substations, and industrial manufacturing plants across Asia and globally.
             </p>
 
             <blockquote className="text-slate-800 bg-orange-50/60 p-5 rounded-2xl border-l-4 border-[#EA580C] text-sm leading-relaxed italic">
-              &ldquo;Our Tokyo engineering team continues to push boundaries in noise-rejection digital filtering, non-contact loop resistance testing, and cloud-ready diagnostic tools for modern power grids.&rdquo;
+              &ldquo;With 20 to 25 years of relentless precision engineering, our Tokyo team continues to push boundaries in noise-rejection digital filtering, non-contact loop resistance testing, and cloud-ready diagnostic tools for modern power grids.&rdquo;
             </blockquote>
 
             <div className="grid grid-cols-2 gap-4 pt-2">
@@ -109,7 +139,7 @@ export default function AboutPage() {
                 <CheckCircle2 className="w-5 h-5 text-[#EA580C] shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-bold text-sm text-slate-900">Tokyo Calibration Lab</h4>
-                  <p className="text-xs text-slate-500">100% individual multi-point factory calibration.</p>
+                  <p className="text-xs text-slate-500">100% individual multi-point factory calibration by our 20-member team.</p>
                 </div>
               </div>
             </div>
@@ -150,8 +180,83 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 4. MANUFACTURING & R&D INFRASTRUCTURE */}
-      <section className="bg-slate-100/80 py-16 border-y border-slate-200">
+      {/* 4. JAPANESE TEAM DIRECTORY (20 EMPLOYEES) */}
+      <section className="bg-slate-50 py-16 border-y border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto space-y-3 mb-12">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-100 border border-orange-200 text-xs font-bold uppercase tracking-widest text-[#EA580C]">
+              <Users className="w-4 h-4" />
+              Tokyo Team Directory (社員紹介 - 20名)
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-['Outfit']">
+              Meet Our 20-Member Japanese Engineering & Leadership Team
+            </h2>
+            <p className="text-slate-600 text-sm sm:text-base">
+              With 20 to 25 years of accumulated industry mastery, our Tokyo headquarters houses 20 dedicated specialists spanning hardware R&D, metrology calibration, DSP filtering, and global supply management.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+            {JAPAN_EMPLOYEES.map((emp) => (
+              <div 
+                key={emp.id}
+                className="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md hover:border-orange-300 transition-all space-y-3 group"
+              >
+                <div className="flex items-start justify-between">
+                  <div className="w-10 h-10 rounded-xl bg-orange-50 border border-orange-100 text-[#EA580C] font-black text-sm flex items-center justify-center font-['Outfit'] group-hover:bg-[#EA580C] group-hover:text-white transition-colors">
+                    {emp.id.toString().padStart(2, "0")}
+                  </div>
+                  <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">
+                    <Clock className="w-3 h-3 text-orange-500" />
+                    {emp.experience}
+                  </span>
+                </div>
+
+                <div>
+                  <div className="text-xs font-medium text-slate-400 font-mono">
+                    {emp.nameJp}
+                  </div>
+                  <h3 className="text-base font-bold text-slate-900 font-['Outfit'] leading-snug">
+                    {emp.nameEn}
+                  </h3>
+                  <p className="text-xs font-semibold text-[#EA580C] mt-0.5">
+                    {emp.role}
+                  </p>
+                </div>
+
+                <div className="pt-2 border-t border-slate-100 space-y-1.5 text-xs text-slate-600">
+                  <div className="flex items-center gap-1.5 text-slate-500">
+                    <Briefcase className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                    <span className="truncate">{emp.department}</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <Mail className="w-3.5 h-3.5 text-[#EA580C] shrink-0" />
+                    <a 
+                      href={`mailto:${emp.email}`}
+                      className="text-slate-700 hover:text-[#EA580C] font-mono text-[11px] truncate transition-colors underline decoration-slate-200 hover:decoration-[#EA580C]"
+                    >
+                      {emp.email}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 text-center">
+            <p className="text-xs text-slate-500">
+              For direct technical consultations, contact our Tokyo headquarters engineering desk at{" "}
+              <a href="mailto:info@railjet-global.jp" className="text-[#EA580C] font-semibold underline">
+                info@railjet-global.jp
+              </a>{" "}
+              or call <span className="font-semibold text-slate-700">+81 3-5829-9180</span>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. MANUFACTURING & R&D INFRASTRUCTURE */}
+      <section className="bg-slate-100/80 py-16 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto space-y-3 mb-12">
             <span className="text-xs font-bold uppercase tracking-widest text-[#EA580C] bg-white px-3 py-1 rounded-full border border-slate-200">
@@ -205,12 +310,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 5. PHOTO GALLERY */}
+      {/* 6. PHOTO GALLERY */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <GalleryShowcase limit={8} />
       </section>
 
-      {/* 6. LOCATION & CONTACT CTA */}
+      {/* 7. LOCATION & CONTACT CTA */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl p-8 sm:p-10 border border-slate-200 shadow-md flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2">
