@@ -6,6 +6,7 @@ export interface ProductItem {
   model: string;
   sourceDoc: string;
   pdfUrl: string;
+  isCatalogAvailable?: boolean;
   rdsoCompliant: boolean;
   description: string;
   keyHighlights: string[];
@@ -107,6 +108,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     model: "Model: RR",
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
+    isCatalogAvailable: false,
     rdsoCompliant: true,
     description: "High-precision clamp ground loop resistance tester engineered with authentic Japanese precision technology (Made in Japan) for railway traction, power grid substations, and signaling earth pits.",
     keyHighlights: [
@@ -130,7 +132,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
       "Automatic identification of interference signals with 'NOISE' prompt",
       "Precision engineered & manufactured by RAILJET Tokyo, Japan",
     ],
-    image: "/images/ClampEarthResistanceTeste.png",
+    image: "/images/RR.png",
   },
   {
     id: "prod-rr-plus",
@@ -140,6 +142,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     model: "Model: RR+",
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
+    isCatalogAvailable: false,
     rdsoCompliant: true,
     description: "Dual-capability clamp ground loop resistance and AC leakage current tester with fast digital filtering and noise suppression for substation earth grid monitoring.",
     keyHighlights: [
@@ -164,7 +167,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
       "Low battery indicator and auto power-off after 5 minutes idle",
       "Marketed globally by Rudra Rail Services",
     ],
-    image: "/images/ClampEarthResistanceTeste.png",
+    image: "/images/RR+.png",
   },
   {
     id: "prod-r1",
@@ -174,6 +177,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     model: "Model: R1",
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
+    isCatalogAvailable: false,
     rdsoCompliant: true,
     description: "Extended-range clamp ground resistance and leakage current tester with 0.010Ω - 500Ω loop measurement range designed for railway OHE and traction substations.",
     keyHighlights: [
@@ -198,7 +202,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
       "Data hold and historical record recall functions",
       "Marketed by Rudra Rail Services with Tokyo calibration standards",
     ],
-    image: "/images/ClampEarthResistanceTeste.png",
+    image: "/images/R1.png",
   },
   {
     id: "prod-r1-plus",
@@ -208,6 +212,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     model: "Model: R1+",
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
+    isCatalogAvailable: true,
     rdsoCompliant: true,
     description: "Flagship high-precision clamp ground loop resistance & leakage current tester engineered with authentic Japanese precision technology (Made in Japan) with luxury high-contrast black screen display.",
     keyHighlights: [
@@ -243,6 +248,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     model: "Model: R2",
     sourceDoc: "ES3022 Series user manual.pdf",
     pdfUrl: "/docs/ES3022%20Series%20user%20manual.pdf",
+    isCatalogAvailable: false,
     rdsoCompliant: true,
     description: "Multi-functional 2.4-inch color LCD ground pile clamp tester supporting Clamp Method, 2/3/4-Wire Method, AC Current, and Ground Voltage testing with USB PC software.",
     keyHighlights: [
@@ -268,7 +274,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
       "USB connection with dedicated Windows PC analysis suite",
       "Rugged shock-proof, dust-proof & moisture-proof industrial enclosure",
     ],
-    image: "/images/ClampEarthResistanceTeste.png",
+    image: "/images/R2.png",
   },
   {
     id: "prod-r3",
@@ -278,6 +284,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     model: "Model: R3",
     sourceDoc: "ES3022 Series user manual.pdf",
     pdfUrl: "/docs/ES3022%20Series%20user%20manual.pdf",
+    isCatalogAvailable: false,
     rdsoCompliant: true,
     description: "Advanced ground pile clamp & soil resistivity tester supporting Wenner 4-pole calculation, 2/3/4-wire earth resistance, selection method, and leakage current measurement.",
     keyHighlights: [
@@ -302,7 +309,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
       "Wenner 4-pole method soil resistivity calculation (ρ = 2πaR)",
       "Dedicated field accessories with 4 auxiliary ground stakes and wire reels",
     ],
-    image: "/images/ClampEarthResistanceTeste.png",
+    image: "/images/R3.png",
   },
   {
     id: "prod-r3-plus",
@@ -312,6 +319,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     model: "Model: R3+",
     sourceDoc: "ES3022 Series user manual.pdf",
     pdfUrl: "/docs/ES3022%20Series%20user%20manual.pdf",
+    isCatalogAvailable: false,
     rdsoCompliant: true,
     description: "Top-tier flagship smart clamp ground pile & soil resistivity tester featuring integrated Bluetooth Mobile App connectivity, USB PC software, Wenner 4-pole calculation, and FFT digital filtering.",
     keyHighlights: [
@@ -337,7 +345,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
       "Selection method testing without disconnecting parallel ground cables",
       "Engineered for high-speed rail corridors, metro systems & EHV substations",
     ],
-    image: "/images/ClampEarthResistanceTeste.png",
+    image: "/images/R3+.png",
   },
 ];
 

@@ -35,6 +35,7 @@ export default function ProductsPage() {
   const [activeModalProduct, setActiveModalProduct] = useState<ProductItem | null>(null);
   const [quoteSuccess, setQuoteSuccess] = useState(false);
   const [downloadSuccess, setDownloadSuccess] = useState(false);
+  const [unavailableModelNotice, setUnavailableModelNotice] = useState<string | null>(null);
 
   // Filter products by category and search query
   const filteredProducts = useMemo(() => {
@@ -50,14 +51,23 @@ export default function ProductsPage() {
     });
   }, [selectedCategory, searchQuery]);
 
-  const handleDownloadAllDocs = () => {
+  const handleDownloadR1Doc = () => {
     confetti({
       particleCount: 80,
       spread: 70,
       origin: { y: 0.6 },
     });
     setDownloadSuccess(true);
+    setUnavailableModelNotice(null);
     setTimeout(() => setDownloadSuccess(false), 5000);
+  };
+
+  const handleUnavailableCatalogClick = (product: ProductItem) => {
+    setUnavailableModelNotice(product.model);
+    setDownloadSuccess(false);
+    setTimeout(() => {
+      setUnavailableModelNotice((current) => (current === product.model ? null : current));
+    }, 6000);
   };
 
   const handleQuoteSubmit = (e: React.FormEvent) => {
@@ -93,28 +103,32 @@ export default function ProductsPage() {
           <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
             <a
               href="/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf"
-              download
-              onClick={handleDownloadAllDocs}
+              download="RailJet_R1_Plus_Earth_Clamp_Catalogue.pdf"
+              onClick={handleDownloadR1Doc}
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-white bg-[#EA580C] hover:bg-[#D94E06] shadow-lg shadow-orange-950/40 transition-all active:scale-95 text-xs sm:text-sm"
             >
               <Download className="w-4 h-4" />
-              Download Earth Clamp Menu PDF
-            </a>
-            <a
-              href="/docs/catalog%2020260729%E5%8E%8B%E7%BC%A9.pdf"
-              download
-              onClick={handleDownloadAllDocs}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-slate-200 bg-[#33373B] hover:bg-[#3D4248] border border-white/10 transition-all text-xs sm:text-sm"
-            >
-              <FileText className="w-4 h-4 text-[#EA580C]" />
-              Full 2026 Catalogue PDF
+              Download Model R1+ Catalogue PDF
             </a>
           </div>
 
           {downloadSuccess && (
             <div className="mt-3 inline-flex items-center gap-2 bg-emerald-500/20 border border-emerald-400 text-emerald-200 px-4 py-2 rounded-full text-xs font-semibold animate-bounce">
               <CheckCircle2 className="w-4 h-4 text-emerald-300" />
-              Product manual PDF downloaded successfully!
+              Model R1+ Catalogue PDF downloaded successfully!
+            </div>
+          )}
+
+          {unavailableModelNotice && (
+            <div className="mt-3 inline-flex items-center gap-2 bg-amber-500/20 border border-amber-400 text-amber-200 px-5 py-2.5 rounded-full text-xs font-semibold animate-in fade-in">
+              <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping" />
+              Catalogue for {unavailableModelNotice} is currently under preparation & unavailable for direct download. Please contact sales for datasheet.
+              <button
+                onClick={() => setUnavailableModelNotice(null)}
+                className="ml-2 text-amber-300 hover:text-white"
+              >
+                <X className="w-3.5 h-3.5" />
+              </button>
             </div>
           )}
         </div>
@@ -243,14 +257,26 @@ export default function ProductsPage() {
                   <Activity className="w-3.5 h-3.5" />
                   <span>Technical Specs</span>
                 </button>
-                <a
-                  href={product.pdfUrl}
-                  download
-                  className="p-2.5 rounded-xl bg-orange-50 hover:bg-orange-100 text-[#EA580C] border border-orange-200 transition-colors"
-                  title="Download PDF Manual / Catalogue"
-                >
-                  <Download className="w-4 h-4" />
-                </a>
+                {product.isCatalogAvailable ? (
+                  <a
+                    href={product.pdfUrl}
+                    download="RailJet_R1_Plus_Earth_Clamp_Catalogue.pdf"
+                    onClick={handleDownloadR1Doc}
+                    className="p-2.5 rounded-xl bg-orange-50 hover:bg-orange-100 text-[#EA580C] border border-orange-200 transition-colors"
+                    title="Download Model R1+ Official Catalogue PDF"
+                  >
+                    <Download className="w-4 h-4" />
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => handleUnavailableCatalogClick(product)}
+                    className="p-2.5 rounded-xl bg-slate-100 hover:bg-amber-50 text-slate-400 hover:text-amber-600 border border-slate-200 transition-colors group/btn relative"
+                    title="Official Catalogue Currently Unavailable (Click for info)"
+                  >
+                    <Download className="w-4 h-4 opacity-50" />
+                  </button>
+                )}
               </div>
             </div>
           ))}
@@ -299,14 +325,31 @@ export default function ProductsPage() {
                     {activeModalProduct.description}
                   </p>
                   <div className="pt-2">
-                    <a
-                      href={activeModalProduct.pdfUrl}
-                      download
-                      className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#EA580C] hover:bg-[#D94E06] text-white font-bold text-xs shadow transition-all"
-                    >
-                      <Download className="w-3.5 h-3.5" />
-                      Download Original PDF Manual
-                    </a>
+                    {activeModalProduct.isCatalogAvailable ? (
+                      <a
+                        href={activeModalProduct.pdfUrl}
+                        download="RailJet_R1_Plus_Earth_Clamp_Catalogue.pdf"
+                        onClick={handleDownloadR1Doc}
+                        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#EA580C] hover:bg-[#D94E06] text-white font-bold text-xs shadow transition-all"
+                      >
+                        <Download className="w-3.5 h-3.5" />
+                        Download Model R1+ Official Catalogue PDF
+                      </a>
+                    ) : (
+                      <div className="space-y-1.5">
+                        <button
+                          type="button"
+                          onClick={() => handleUnavailableCatalogClick(activeModalProduct)}
+                          className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white/10 hover:bg-amber-500/20 text-amber-300 hover:text-amber-200 font-semibold text-xs border border-amber-400/30 transition-all"
+                        >
+                          <Download className="w-3.5 h-3.5 opacity-50" />
+                          Official Catalogue Unavailable for Direct Download
+                        </button>
+                        <p className="text-[11px] text-slate-400">
+                          *Full technical datasheet for {activeModalProduct.model} is available upon request via inquiry.
+                        </p>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
