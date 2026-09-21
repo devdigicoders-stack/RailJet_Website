@@ -23,10 +23,10 @@ export default function SupplierPage() {
     contactPerson: "",
     email: "",
     phone: "",
-    gstin: "",
+    taxId: "",
     materialCategory: "Raw Steel & Forgings",
     annualCapacity: "",
-    rdsoVendorStatus: "Approved Vendor",
+    vendorStatus: "ISO 9001 Certified Supplier",
     message: "",
   });
 
@@ -45,10 +45,10 @@ export default function SupplierPage() {
         contactPerson: "",
         email: "",
         phone: "",
-        gstin: "",
+        taxId: "",
         materialCategory: "Raw Steel & Forgings",
         annualCapacity: "",
-        rdsoVendorStatus: "Approved Vendor",
+        vendorStatus: "ISO 9001 Certified Supplier",
         message: "",
       });
     }, 4000);
@@ -160,7 +160,7 @@ export default function SupplierPage() {
                 Rudra Rail Services
               </h2>
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                <strong className="text-white">Rudra Rail Services</strong> is the authorized marketing, supply, and procurement partner for RailJet instruments across heavy engineering, electrical utilities, and transit infrastructure. Handling institutional supply, divisional tenders, and field calibration support.
+                <strong className="text-white">Rudra Rail Services</strong> is the authorized marketing, supply, and procurement partner for RailJet instruments across heavy engineering, electrical utilities, and transit infrastructure. Handling institutional supply, international transit procurement, and field calibration support.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
@@ -360,7 +360,7 @@ export default function SupplierPage() {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+91 98765 43210"
+                      placeholder="+81 3-5829-9180"
                       className="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-[#EA580C] focus:bg-white focus:outline-none"
                     />
                   </div>
@@ -368,12 +368,12 @@ export default function SupplierPage() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div className="space-y-1.5">
-                    <label className="text-xs font-bold text-slate-700">GSTIN Number</label>
+                    <label className="text-xs font-bold text-slate-700">Business / Tax ID Number</label>
                     <input
                       type="text"
-                      value={formData.gstin}
-                      onChange={(e) => setFormData({ ...formData, gstin: e.target.value })}
-                      placeholder="22AAAAA0000A1Z5"
+                      value={formData.taxId}
+                      onChange={(e) => setFormData({ ...formData, taxId: e.target.value })}
+                      placeholder="TAX-JP-89210048"
                       className="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-[#EA580C] focus:bg-white focus:outline-none uppercase"
                     />
                   </div>
@@ -393,14 +393,15 @@ export default function SupplierPage() {
                     </select>
                   </div>
                   <div className="space-y-1.5">
-                    <label className="text-xs font-bold text-slate-700">Vendor Status</label>
+                    <label className="text-xs font-bold text-slate-700">Vendor Certification</label>
                     <select
-                      value={formData.rdsoVendorStatus}
-                      onChange={(e) => setFormData({ ...formData, rdsoVendorStatus: e.target.value })}
+                      value={formData.vendorStatus}
+                      onChange={(e) => setFormData({ ...formData, vendorStatus: e.target.value })}
                       className="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-[#EA580C] focus:bg-white focus:outline-none"
                     >
-                      <option>RDSO Approved Vendor</option>
+                      <option>JIS / IEC Certified Vendor</option>
                       <option>ISO 9001 Certified Supplier</option>
+                      <option>Global Transit Approved Supplier</option>
                       <option>New Applicant</option>
                     </select>
                   </div>

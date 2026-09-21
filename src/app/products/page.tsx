@@ -97,7 +97,7 @@ export default function ProductsPage() {
             Railway Earth & Electrical Testing Instruments
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-3xl mx-auto font-normal leading-relaxed">
-            Engineered for high-voltage power substations, railway traction lines, signaling relays, and soil resistivity surveys. Fully compliant with IEC 61010-1 & RDSO specifications.
+            Engineered for high-voltage power substations, railway traction lines, signaling relays, and soil resistivity surveys. Fully compliant with IEC 61010-1 & JIS C 1302 international standards.
           </p>
 
           <div className="pt-2 flex flex-wrap items-center justify-center gap-3">

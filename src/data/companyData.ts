@@ -7,7 +7,7 @@ export interface ProductItem {
   sourceDoc: string;
   pdfUrl: string;
   isCatalogAvailable?: boolean;
-  rdsoCompliant: boolean;
+  jisCompliant: boolean;
   description: string;
   keyHighlights: string[];
   specs: {
@@ -109,7 +109,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
     isCatalogAvailable: false,
-    rdsoCompliant: true,
+    jisCompliant: true,
     description: "High-precision clamp ground loop resistance tester engineered with authentic Japanese precision technology (Made in Japan) for railway traction, power grid substations, and signaling earth pits.",
     keyHighlights: [
       "Model: RR",
@@ -143,7 +143,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
     isCatalogAvailable: false,
-    rdsoCompliant: true,
+    jisCompliant: true,
     description: "Dual-capability clamp ground loop resistance and AC leakage current tester with fast digital filtering and noise suppression for substation earth grid monitoring.",
     keyHighlights: [
       "Model: RR+",
@@ -178,7 +178,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
     isCatalogAvailable: false,
-    rdsoCompliant: true,
+    jisCompliant: true,
     description: "Extended-range clamp ground resistance and leakage current tester with 0.010Ω - 500Ω loop measurement range designed for railway OHE and traction substations.",
     keyHighlights: [
       "Model: R1",
@@ -213,7 +213,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     sourceDoc: "RALIJET CLAMP EARTH RESISTANCE MENU.pdf",
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
     isCatalogAvailable: true,
-    rdsoCompliant: true,
+    jisCompliant: true,
     description: "Flagship high-precision clamp ground loop resistance & leakage current tester engineered with authentic Japanese precision technology (Made in Japan) with luxury high-contrast black screen display.",
     keyHighlights: [
       "Model: R1+ (Made in Japan / 日本製)",
@@ -249,7 +249,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     sourceDoc: "ES3022 Series user manual.pdf",
     pdfUrl: "/docs/ES3022%20Series%20user%20manual.pdf",
     isCatalogAvailable: false,
-    rdsoCompliant: true,
+    jisCompliant: true,
     description: "Multi-functional 2.4-inch color LCD ground pile clamp tester supporting Clamp Method, 2/3/4-Wire Method, AC Current, and Ground Voltage testing with USB PC software.",
     keyHighlights: [
       "Model: R2",
@@ -285,7 +285,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     sourceDoc: "ES3022 Series user manual.pdf",
     pdfUrl: "/docs/ES3022%20Series%20user%20manual.pdf",
     isCatalogAvailable: false,
-    rdsoCompliant: true,
+    jisCompliant: true,
     description: "Advanced ground pile clamp & soil resistivity tester supporting Wenner 4-pole calculation, 2/3/4-wire earth resistance, selection method, and leakage current measurement.",
     keyHighlights: [
       "Model: R3",
@@ -320,7 +320,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     sourceDoc: "ES3022 Series user manual.pdf",
     pdfUrl: "/docs/ES3022%20Series%20user%20manual.pdf",
     isCatalogAvailable: false,
-    rdsoCompliant: true,
+    jisCompliant: true,
     description: "Top-tier flagship smart clamp ground pile & soil resistivity tester featuring integrated Bluetooth Mobile App connectivity, USB PC software, Wenner 4-pole calculation, and FFT digital filtering.",
     keyHighlights: [
       "Model: R3+ (Flagship)",

@@ -163,7 +163,7 @@ export default function Navbar() {
             <div className="mt-5 pt-4 border-t border-white/10 flex flex-col gap-2.5">
               <div className="flex items-center gap-2 text-xs text-slate-300 px-2 font-medium">
                 <ShieldCheck className="w-4 h-4 text-[#EA580C]" />
-                RDSO & ISO Certified Railway Supplier
+                JIS & ISO 9001 Certified Global Manufacturer
               </div>
               <Link
                 href="/contact"
