@@ -58,7 +58,7 @@ export default function HomePage() {
                   href="/products"
                   className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full text-sm sm:text-base font-bold text-white bg-[#EA580C] hover:bg-[#D94E06] shadow-lg shadow-orange-950/40 hover:shadow-xl transition-all active:scale-95"
                 >
-                  Explore 6 Products
+                  Explore Testing Products
                   <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link
@@ -97,13 +97,13 @@ export default function HomePage() {
                       Featured Flagship Model
                     </span>
                   </div>
-                  <span className="text-xs text-slate-400 font-mono">XCRK272 / ES3022</span>
+                  <span className="text-xs text-slate-400 font-mono">RR / R1+ / R2 / R3+</span>
                 </div>
 
                 <div className="relative h-44 bg-slate-950 rounded-2xl flex items-center justify-center p-3 border border-white/10 overflow-hidden">
                   <Image
                     src="/images/ClampEarthResistanceTeste.png"
-                    alt="RailJet XCRK272 Earth Clamp Tester"
+                    alt="RailJet R1+ Clamp Earth Resistance Tester"
                     fill
                     className="object-contain p-2"
                   />
@@ -114,7 +114,7 @@ export default function HomePage() {
 
                 <div className="space-y-1">
                   <h3 className="text-lg font-bold text-white font-['Outfit']">
-                    RailJet Clamp Earth Resistance Tester
+                    RailJet Clamp Earth Resistance Tester (Model: R1+)
                   </h3>
                   <p className="text-xs text-slate-300 leading-relaxed">
                     Automatic interference detection, 4-digit black screen LCD, 300 sets memory, non-contact loop resistance test without auxiliary spikes.
@@ -125,7 +125,7 @@ export default function HomePage() {
                   href="/products"
                   className="block w-full py-3 text-center rounded-xl bg-[#EA580C] hover:bg-[#D94E06] text-white font-bold text-sm shadow transition-all"
                 >
-                  View All 6 Product Specifications →
+                  View Full Product Specifications →
                 </Link>
               </div>
             </div>
@@ -233,17 +233,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. FEATURED 6 PRODUCTS GRID PREVIEW */}
+      {/* 4. FEATURED PRODUCTS GRID PREVIEW */}
       <section className="bg-slate-100/70 py-16 border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
             <div>
               <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#EA580C] bg-white px-3 py-1 rounded-full border border-slate-200 shadow-sm mb-2">
                 <FileSpreadsheet className="w-3.5 h-3.5" />
-                6 Official Products from Catalog
+                Official Products from Catalog
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-['Outfit']">
-                Our 6 Official Testing Products
+                Our Official Testing Products
               </h2>
             </div>
             <Link
