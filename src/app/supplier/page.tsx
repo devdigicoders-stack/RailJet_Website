@@ -191,7 +191,7 @@ export default function SupplierPage() {
                 <p className="text-[#FB923C] font-bold">MODEL NO : R1+</p>
                 <div className="border-t border-white/10 pt-2 space-y-1 text-[11px]">
                   <p><span className="text-slate-400">Mkt By :</span> RUDRA RAIL SERVICES</p>
-                  <p className="text-slate-300">Global Transit & Railway Procurement Network</p>
+                  <p className="text-slate-300">Global Transit & Infrastructure Procurement Network</p>
                   <p className="pt-1"><span className="text-slate-400">Mfg By :</span> RAILJET (Tokyo, Japan)</p>
                   <p className="text-slate-300">2-chome, Chiyoda-ku, Tokyo 101-0048, Japan</p>
                 </div>

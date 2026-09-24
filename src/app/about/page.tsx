@@ -158,7 +158,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-slate-600 text-sm leading-relaxed">
-                To engineer ultra-reliable, zero-interference electrical diagnostic instruments that safeguard railway personnel, prevent power grid outages, and ensure total grounding integrity.
+                To engineer ultra-reliable, zero-interference electrical diagnostic instruments that safeguard technical personnel, prevent power grid outages, and ensure total grounding integrity.
               </p>
             </div>
 

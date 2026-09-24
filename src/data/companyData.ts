@@ -31,8 +31,8 @@ export interface ProductItem {
 export const COMPANY_DETAILS = {
   name: "RailJet Co., Ltd.",
   japaneseName: "レールジェット株式会社",
-  tagline: "High-Precision Japanese Railway Testing Instruments & Electrical Safety Solutions",
-  taglineJp: "高精度 鉄道試験計測機器・接地抵抗測定ソリューション",
+  tagline: "High-Precision Japanese Industrial & Transit Testing Instruments & Electrical Safety Solutions",
+  taglineJp: "高精度 試験計測機器・接地抵抗測定ソリューション",
   milestone: "¥180+ Billion",
   milestoneDesc: "Achieving an international landmark of over ¥180 Billion in precision measurement instrumentation orders, trusted across global transit, high-speed rail, and power substation networks.",
   address: "2-chome, Chiyoda-ku, Tokyo 101-0048, Japan",
@@ -205,7 +205,7 @@ export const JAPAN_EMPLOYEES: EmployeeItem[] = [
     nameEn: "Tatsuya Matsumoto",
     nameJp: "松本 達也",
     role: "Grounding Diagnostics Engineer",
-    department: "Railway Transit Applications",
+    department: "Transit & Infrastructure Applications",
     email: "t.matsumoto@railjet-global.jp",
     experience: "15 Years Exp."
   },
@@ -303,7 +303,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
     isCatalogAvailable: false,
     jisCompliant: true,
-    description: "High-precision clamp ground loop resistance tester engineered with authentic Japanese precision technology (Made in Japan) for railway traction, power grid substations, and signaling earth pits.",
+    description: "High-precision clamp ground loop resistance tester engineered with authentic Japanese precision technology (Made in Japan) for transit traction, power grid substations, and signaling earth pits.",
     keyHighlights: [
       "Model: RR",
       "Resistance: 0.010Ω - 200Ω",
@@ -372,7 +372,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     pdfUrl: "/docs/RALIJET%20CLAMP%20EARTH%20RESISTANCE%20MENU.pdf",
     isCatalogAvailable: false,
     jisCompliant: true,
-    description: "Extended-range clamp ground resistance and leakage current tester with 0.010Ω - 500Ω loop measurement range designed for railway OHE and traction substations.",
+    description: "Extended-range clamp ground resistance and leakage current tester with 0.010Ω - 500Ω loop measurement range designed for transit OHE and traction substations.",
     keyHighlights: [
       "Model: R1",
       "Resistance: 0.010Ω - 500Ω",
@@ -390,7 +390,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
       accuracy: "High Accuracy ±1% with Digital Filtering",
     },
     features: [
-      "High noise immunity in electrified railway overhead line environments",
+      "High noise immunity in electrified transit overhead line environments",
       "Audible and visual threshold limit alarms",
       "Data hold and historical record recall functions",
       "Marketed by Rudra Rail Services with Tokyo calibration standards",
@@ -569,7 +569,7 @@ export const GALLERY_IMAGES: GalleryImageItem[] = [
     id: 3,
     title: "Heavy-Duty Transit Testing Equipment",
     category: "Instruments",
-    description: "Engineered for high-voltage railway substations, traction lines, and signaling earth pits.",
+    description: "Engineered for high-voltage substations, traction lines, and signaling earth pits.",
     image: "/images/imagesj/railjet_gallery_3.jpeg",
   },
   {
@@ -604,7 +604,7 @@ export const GALLERY_IMAGES: GalleryImageItem[] = [
     id: 8,
     title: "Earth Resistance Testing in Operational Field",
     category: "Testing & Calibration",
-    description: "Direct on-site railway grounding measurement without driving auxiliary ground spikes.",
+    description: "Direct on-site grounding measurement without driving auxiliary ground spikes.",
     image: "/images/imagesj/railjet_gallery_8.jpeg",
   },
   {

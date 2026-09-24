@@ -8,7 +8,7 @@ export default function NotFound() {
         <h2 className="text-6xl font-black text-[#EA580C] font-['Outfit']">404</h2>
         <h3 className="text-2xl font-bold text-slate-900">Page Not Found</h3>
         <p className="text-sm text-slate-600">
-          The requested railway page could not be located.
+          The requested page could not be located.
         </p>
         <Link
           href="/"

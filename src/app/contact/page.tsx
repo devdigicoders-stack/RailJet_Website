@@ -161,7 +161,7 @@ export default function ContactPage() {
                     Authorized Marketing Partner (Mkt By)
                   </span>
                   <p className="text-xs font-bold text-slate-900">RUDRA RAIL SERVICES</p>
-                  <p className="text-[11px] text-slate-600">Global Transit & Railway Procurement Network</p>
+                  <p className="text-[11px] text-slate-600">Global Transit & Infrastructure Procurement Network</p>
                 </div>
               </div>
 
@@ -198,7 +198,7 @@ export default function ContactPage() {
                   Send Us an Inquiry
                 </h3>
                 <p className="text-xs text-slate-500">
-                  Our railway technical experts will respond promptly.
+                  Our technical experts will respond promptly.
                 </p>
               </div>
               <MessageSquare className="w-6 h-6 text-[#EA580C]" />
@@ -278,7 +278,7 @@ export default function ContactPage() {
                     required
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Provide details about required railway products, quantities, drawings, or general questions..."
+                    placeholder="Provide details about required products, quantities, drawings, or general questions..."
                     className="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-[#EA580C] focus:bg-white focus:outline-none"
                   />
                 </div>

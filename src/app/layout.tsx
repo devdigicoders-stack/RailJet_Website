@@ -4,14 +4,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "RailJet Co., Ltd. | High-Precision Japanese Railway Testing Instruments",
+  title: "RailJet Co., Ltd. | High-Precision Japanese Industrial & Transit Testing Instruments",
   description:
     "RailJet Co., Ltd. (Tokyo, Japan) is a premier manufacturer of precision Earth Resistance Clamp Testers, Phase Volt-Ampere Meters, and electrical diagnostic instruments (Made in Japan).",
   keywords: [
     "RailJet",
     "RailJet Japan",
     "RailJet Co Ltd",
-    "Tokyo Railway Testing Instruments",
+    "Tokyo Testing Instruments",
     "Earth Resistance Clamp Tester",
     "Phase Volt-Ampere Meter",
     "Made in Japan Testing Equipment",

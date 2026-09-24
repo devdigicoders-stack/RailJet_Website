@@ -43,7 +43,7 @@ export default function HomePage() {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.12] font-['Outfit']">
                 Precision <br className="hidden sm:inline" />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-100 to-[#EA580C]">
-                  Railway Testing
+                  Industrial & Transit Testing
                 </span>{" "}
                 & Earth Resistance Instruments
               </h1>
@@ -172,7 +172,7 @@ export default function HomePage() {
             Comprehensive Testing & Measurement Instruments
           </h2>
           <p className="text-slate-600 text-sm sm:text-base">
-            Engineered from our technical manuals and catalogue for railway power grids, signaling departments, and maintenance depots.
+            Engineered from our technical manuals and catalogue for power grids, signaling departments, and maintenance depots.
           </p>
         </div>
 
@@ -364,7 +364,7 @@ export default function HomePage() {
                 Vendor & Procurement Desk
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Looking to request quotations for railway division tenders or register as an approved vendor? Connect with our team.
+                Looking to request quotations for division tenders or register as an approved vendor? Connect with our team.
               </p>
               <div className="pt-2 flex flex-col gap-2.5">
                 <Link

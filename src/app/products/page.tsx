@@ -94,10 +94,10 @@ export default function ProductsPage() {
             Official Testing & Measurement Instruments Catalogue
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight font-['Outfit']">
-            Railway Earth & Electrical Testing Instruments
+            Earth & Electrical Testing Instruments
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-3xl mx-auto font-normal leading-relaxed">
-            Engineered for high-voltage power substations, railway traction lines, signaling relays, and soil resistivity surveys. Fully compliant with IEC 61010-1 & JIS C 1302 international standards.
+            Engineered for high-voltage power substations, traction lines, signaling relays, and soil resistivity surveys. Fully compliant with IEC 61010-1 & JIS C 1302 international standards.
           </p>
 
           <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
@@ -458,7 +458,7 @@ export default function ProductsPage() {
                       <input
                         type="text"
                         required
-                        placeholder="Your Name / Railway Division *"
+                        placeholder="Your Name / Division *"
                         className="p-2.5 bg-white border border-slate-200 rounded-xl text-xs focus:ring-2 focus:ring-[#EA580C] focus:outline-none"
                       />
                       <input
@@ -508,7 +508,7 @@ export default function ProductsPage() {
           <div className="space-y-1 text-center md:text-left">
             <h3 className="text-2xl font-bold font-['Outfit']">Need Bulk Testing Equipment or Calibration?</h3>
             <p className="text-xs sm:text-sm text-slate-400">
-              We provide testing kits with calibration test reports for all major transit & railway divisions.
+              We provide testing kits with calibration test reports for all major transit & industrial divisions.
             </p>
           </div>
           <Link
